@@ -1,0 +1,22 @@
+{
+    "Basic Materials": ["Consumer Defensive", "Utilities"],
+    "Chemicals": ["Consumer Defensive", "Utilities"],
+    "Metals & Mining": ["Consumer Defensive", "Utilities"],
+    "Construction & Building Materials": ["Utilities", "Consumer Defensive"],
+    "Communication Services": ["Utilities", "Consumer Defensive"],
+    "Consumer Cyclical": ["Consumer Defensive", "Utilities"],
+    "Consumer Defensive": ["Consumer Cyclical", "Technology"],
+    "Energy": ["Transportation", "Consumer Defensive"],
+    "Financial Services": ["Utilities", "Consumer Defensive"],
+    "Banks": ["Utilities", "Consumer Defensive"],
+    "Insurance": ["Utilities", "Consumer Defensive"],
+    "Healthcare": ["Consumer Cyclical", "Technology"],
+    "Pharmaceuticals & Biotechnology": ["Consumer Cyclical", "Technology"],
+    "Industrials": ["Utilities", "Consumer Defensive"],
+    "Aerospace & Defense": ["Utilities", "Consumer Defensive"],
+    "Real Estate": ["Utilities", "Consumer Defensive"],
+    "Technology": ["Utilities", "Consumer Defensive"],
+    "Semiconductors & Electronics": ["Consumer Defensive", "Utilities"],
+    "Transportation": ["Energy", "Consumer Defensive"],
+    "Utilities": ["Consumer Cyclical", "Technology"]
+}

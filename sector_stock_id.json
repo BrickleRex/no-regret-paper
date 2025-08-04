@@ -1,0 +1,8342 @@
+[
+  {
+    "ticker": "ABBV",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 4
+  },
+  {
+    "ticker": "AAT",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 3
+  },
+  {
+    "ticker": "ACGL",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 12
+  },
+  {
+    "ticker": "ACAD",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 10
+  },
+  {
+    "ticker": "AAON",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1
+  },
+  {
+    "ticker": "ABG",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 6
+  },
+  {
+    "ticker": "AEE",
+    "sector": "Utilities",
+    "sector_id": 11,
+    "stock_id": 27
+  },
+  {
+    "ticker": "ACIW",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 14
+  },
+  {
+    "ticker": "ADM",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 22
+  },
+  {
+    "ticker": "AEIS",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 28
+  },
+  {
+    "ticker": "ADP",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 24
+  },
+  {
+    "ticker": "ABNB",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 7
+  },
+  {
+    "ticker": "ADT",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 26
+  },
+  {
+    "ticker": "ADI",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 21
+  },
+  {
+    "ticker": "ACN",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 17
+  },
+  {
+    "ticker": "ABR",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 8
+  },
+  {
+    "ticker": "ADEA",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 20
+  },
+  {
+    "ticker": "ACLS",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 16
+  },
+  {
+    "ticker": "ADSK",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 25
+  },
+  {
+    "ticker": "ADNT",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 23
+  },
+  {
+    "ticker": "AEO",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 29
+  },
+  {
+    "ticker": "AEP",
+    "sector": "Utilities",
+    "sector_id": 11,
+    "stock_id": 30
+  },
+  {
+    "ticker": "AAPL",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 2
+  },
+  {
+    "ticker": "ABCB",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 5
+  },
+  {
+    "ticker": "ADC",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 19
+  },
+  {
+    "ticker": "AER",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 31
+  },
+  {
+    "ticker": "ACA",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 11
+  },
+  {
+    "ticker": "ACI",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 15
+  },
+  {
+    "ticker": "ADBE",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 18
+  },
+  {
+    "ticker": "AAL",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 0
+  },
+  {
+    "ticker": "ACHC",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 13
+  },
+  {
+    "ticker": "ABT",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 9
+  },
+  {
+    "ticker": "AES",
+    "sector": "Utilities",
+    "sector_id": 11,
+    "stock_id": 32
+  },
+  {
+    "ticker": "AFL",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 34
+  },
+  {
+    "ticker": "AFG",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 33
+  },
+  {
+    "ticker": "AGIO",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 37
+  },
+  {
+    "ticker": "AGR",
+    "sector": "Unknown",
+    "sector_id": 10,
+    "stock_id": 41
+  },
+  {
+    "ticker": "AFRM",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 35
+  },
+  {
+    "ticker": "AGO",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 40
+  },
+  {
+    "ticker": "AIG",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 43
+  },
+  {
+    "ticker": "AGL",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 38
+  },
+  {
+    "ticker": "AGCO",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 36
+  },
+  {
+    "ticker": "ALIT",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 56
+  },
+  {
+    "ticker": "ALLE",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 58
+  },
+  {
+    "ticker": "AIT",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 44
+  },
+  {
+    "ticker": "AHCO",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 42
+  },
+  {
+    "ticker": "ALEX",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 52
+  },
+  {
+    "ticker": "AIV",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 45
+  },
+  {
+    "ticker": "AKRO",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 49
+  },
+  {
+    "ticker": "AKAM",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 48
+  },
+  {
+    "ticker": "AGNC",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 39
+  },
+  {
+    "ticker": "ALB",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 51
+  },
+  {
+    "ticker": "AKR",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 50
+  },
+  {
+    "ticker": "ALHC",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 55
+  },
+  {
+    "ticker": "ALL",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 60
+  },
+  {
+    "ticker": "ALTM",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 63
+  },
+  {
+    "ticker": "AIZ",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 46
+  },
+  {
+    "ticker": "ALGN",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 54
+  },
+  {
+    "ticker": "ALLY",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 59
+  },
+  {
+    "ticker": "ALGM",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 53
+  },
+  {
+    "ticker": "AJG",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 47
+  },
+  {
+    "ticker": "ALNY",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 61
+  },
+  {
+    "ticker": "ALRM",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 62
+  },
+  {
+    "ticker": "ALKS",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 57
+  },
+  {
+    "ticker": "ALTR",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 64
+  },
+  {
+    "ticker": "AMAT",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 66
+  },
+  {
+    "ticker": "AMC",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 69
+  },
+  {
+    "ticker": "ALV",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 65
+  },
+  {
+    "ticker": "AMBP",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 68
+  },
+  {
+    "ticker": "AMD",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 70
+  },
+  {
+    "ticker": "AME",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 72
+  },
+  {
+    "ticker": "AMBA",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 67
+  },
+  {
+    "ticker": "AMH",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 74
+  },
+  {
+    "ticker": "AMPH",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 77
+  },
+  {
+    "ticker": "AMN",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 76
+  },
+  {
+    "ticker": "AMP",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 78
+  },
+  {
+    "ticker": "AMT",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 80
+  },
+  {
+    "ticker": "AMWD",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 81
+  },
+  {
+    "ticker": "AMRC",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 79
+  },
+  {
+    "ticker": "ANF",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 85
+  },
+  {
+    "ticker": "ANSS",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 86
+  },
+  {
+    "ticker": "AMED",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 71
+  },
+  {
+    "ticker": "AMKR",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 75
+  },
+  {
+    "ticker": "AOS",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 87
+  },
+  {
+    "ticker": "AMZN",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 82
+  },
+  {
+    "ticker": "ANET",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 84
+  },
+  {
+    "ticker": "AMGN",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 73
+  },
+  {
+    "ticker": "APD",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 89
+  },
+  {
+    "ticker": "APG",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 90
+  },
+  {
+    "ticker": "APH",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 91
+  },
+  {
+    "ticker": "APAM",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 88
+  },
+  {
+    "ticker": "APLE",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 92
+  },
+  {
+    "ticker": "AM",
+    "sector": "Energy",
+    "sector_id": 4,
+    "stock_id": 83
+  },
+  {
+    "ticker": "APLS",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 93
+  },
+  {
+    "ticker": "APO",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 95
+  },
+  {
+    "ticker": "APOG",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 94
+  },
+  {
+    "ticker": "APPF",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 96
+  },
+  {
+    "ticker": "APPN",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 97
+  },
+  {
+    "ticker": "APP",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 98
+  },
+  {
+    "ticker": "APTV",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 99
+  },
+  {
+    "ticker": "ARRY",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 103
+  },
+  {
+    "ticker": "ARVN",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 104
+  },
+  {
+    "ticker": "ARWR",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 105
+  },
+  {
+    "ticker": "ARES",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 101
+  },
+  {
+    "ticker": "ASB",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 108
+  },
+  {
+    "ticker": "ATGE",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 110
+  },
+  {
+    "ticker": "ATKR",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 111
+  },
+  {
+    "ticker": "ATRC",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 112
+  },
+  {
+    "ticker": "ASGN",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 109
+  },
+  {
+    "ticker": "ASAN",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 107
+  },
+  {
+    "ticker": "ARMK",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 102
+  },
+  {
+    "ticker": "ARW",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 106
+  },
+  {
+    "ticker": "AVB",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 116
+  },
+  {
+    "ticker": "AUR",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 115
+  },
+  {
+    "ticker": "AVGO",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 117
+  },
+  {
+    "ticker": "AVNS",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 118
+  },
+  {
+    "ticker": "AXNX",
+    "sector": "Unknown",
+    "sector_id": 10,
+    "stock_id": 124
+  },
+  {
+    "ticker": "AVNT",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 119
+  },
+  {
+    "ticker": "AXON",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 125
+  },
+  {
+    "ticker": "AVY",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 121
+  },
+  {
+    "ticker": "ARCB",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 100
+  },
+  {
+    "ticker": "AXP",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 126
+  },
+  {
+    "ticker": "AVTR",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 120
+  },
+  {
+    "ticker": "AWI",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 122
+  },
+  {
+    "ticker": "AUB",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 114
+  },
+  {
+    "ticker": "AWK",
+    "sector": "Utilities",
+    "sector_id": 11,
+    "stock_id": 123
+  },
+  {
+    "ticker": "AXSM",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 127
+  },
+  {
+    "ticker": "AXTA",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 129
+  },
+  {
+    "ticker": "ATR",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 113
+  },
+  {
+    "ticker": "AZEK",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 131
+  },
+  {
+    "ticker": "AXS",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 128
+  },
+  {
+    "ticker": "AYI",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 130
+  },
+  {
+    "ticker": "AZO",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 132
+  },
+  {
+    "ticker": "AZPN",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 133
+  },
+  {
+    "ticker": "AZTA",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 134
+  },
+  {
+    "ticker": "BAH",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 136
+  },
+  {
+    "ticker": "BAC",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 135
+  },
+  {
+    "ticker": "BANR",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 139
+  },
+  {
+    "ticker": "BAP",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 140
+  },
+  {
+    "ticker": "BATRA",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 141
+  },
+  {
+    "ticker": "BATRK",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 142
+  },
+  {
+    "ticker": "BANF",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 138
+  },
+  {
+    "ticker": "BBIO",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 145
+  },
+  {
+    "ticker": "BA",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 144
+  },
+  {
+    "ticker": "BALL",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 137
+  },
+  {
+    "ticker": "BAX",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 143
+  },
+  {
+    "ticker": "BCC",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 148
+  },
+  {
+    "ticker": "BCO",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 149
+  },
+  {
+    "ticker": "BCPC",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 150
+  },
+  {
+    "ticker": "BCRX",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 151
+  },
+  {
+    "ticker": "BBY",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 147
+  },
+  {
+    "ticker": "BBWI",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 146
+  },
+  {
+    "ticker": "BDX",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 153
+  },
+  {
+    "ticker": "BDC",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 152
+  },
+  {
+    "ticker": "BECN",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 155
+  },
+  {
+    "ticker": "BEN",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 156
+  },
+  {
+    "ticker": "BF.A",
+    "sector": "Unknown",
+    "sector_id": 10,
+    "stock_id": 158
+  },
+  {
+    "ticker": "BEAM",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 154
+  },
+  {
+    "ticker": "BF.B",
+    "sector": "Unknown",
+    "sector_id": 10,
+    "stock_id": 159
+  },
+  {
+    "ticker": "BERY",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 157
+  },
+  {
+    "ticker": "BFAM",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 160
+  },
+  {
+    "ticker": "BFH",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 161
+  },
+  {
+    "ticker": "BGC",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 163
+  },
+  {
+    "ticker": "BG",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 164
+  },
+  {
+    "ticker": "BHF",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 165
+  },
+  {
+    "ticker": "BHLB",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 166
+  },
+  {
+    "ticker": "BHVN",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 167
+  },
+  {
+    "ticker": "BFS",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 162
+  },
+  {
+    "ticker": "BIIB",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 168
+  },
+  {
+    "ticker": "BILL",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 169
+  },
+  {
+    "ticker": "BIO",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 170
+  },
+  {
+    "ticker": "BIRK",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 171
+  },
+  {
+    "ticker": "BJ",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 172
+  },
+  {
+    "ticker": "BKE",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 173
+  },
+  {
+    "ticker": "BKNG",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 174
+  },
+  {
+    "ticker": "BKU",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 176
+  },
+  {
+    "ticker": "BKR",
+    "sector": "Energy",
+    "sector_id": 4,
+    "stock_id": 175
+  },
+  {
+    "ticker": "BLDR",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 177
+  },
+  {
+    "ticker": "BLD",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 178
+  },
+  {
+    "ticker": "BMBL",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 181
+  },
+  {
+    "ticker": "BLKB",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 179
+  },
+  {
+    "ticker": "BLK",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 180
+  },
+  {
+    "ticker": "BMI",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 182
+  },
+  {
+    "ticker": "BMRN",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 183
+  },
+  {
+    "ticker": "BMY",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 184
+  },
+  {
+    "ticker": "BNL",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 185
+  },
+  {
+    "ticker": "BOH",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 186
+  },
+  {
+    "ticker": "BOKF",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 187
+  },
+  {
+    "ticker": "BOOT",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 188
+  },
+  {
+    "ticker": "BOX",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 189
+  },
+  {
+    "ticker": "BPMC",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 190
+  },
+  {
+    "ticker": "BRBR",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 192
+  },
+  {
+    "ticker": "BRK.A",
+    "sector": "Unknown",
+    "sector_id": 10,
+    "stock_id": 193
+  },
+  {
+    "ticker": "BRK.B",
+    "sector": "Unknown",
+    "sector_id": 10,
+    "stock_id": 194
+  },
+  {
+    "ticker": "BRKR",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 195
+  },
+  {
+    "ticker": "BROS",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 196
+  },
+  {
+    "ticker": "BRO",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 197
+  },
+  {
+    "ticker": "BRX",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 198
+  },
+  {
+    "ticker": "BPOP",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 191
+  },
+  {
+    "ticker": "BRZE",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 199
+  },
+  {
+    "ticker": "BR",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 200
+  },
+  {
+    "ticker": "BSY",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 202
+  },
+  {
+    "ticker": "BURL",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 203
+  },
+  {
+    "ticker": "BWA",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 204
+  },
+  {
+    "ticker": "BWXT",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 205
+  },
+  {
+    "ticker": "BXMT",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 206
+  },
+  {
+    "ticker": "BXP",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 207
+  },
+  {
+    "ticker": "BX",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 208
+  },
+  {
+    "ticker": "CABO",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 209
+  },
+  {
+    "ticker": "CACC",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 210
+  },
+  {
+    "ticker": "CAG",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 212
+  },
+  {
+    "ticker": "CAH",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 213
+  },
+  {
+    "ticker": "CADE",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 211
+  },
+  {
+    "ticker": "CALM",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 214
+  },
+  {
+    "ticker": "CALX",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 215
+  },
+  {
+    "ticker": "BSX",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 201
+  },
+  {
+    "ticker": "CARG",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 216
+  },
+  {
+    "ticker": "CARR",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 217
+  },
+  {
+    "ticker": "CASY",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 220
+  },
+  {
+    "ticker": "CATY",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 221
+  },
+  {
+    "ticker": "CAR",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 219
+  },
+  {
+    "ticker": "CART",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 218
+  },
+  {
+    "ticker": "CBOE",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 224
+  },
+  {
+    "ticker": "CBRE",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 225
+  },
+  {
+    "ticker": "CBRL",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 226
+  },
+  {
+    "ticker": "CBT",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 228
+  },
+  {
+    "ticker": "CAT",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 222
+  },
+  {
+    "ticker": "CBZ",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 230
+  },
+  {
+    "ticker": "CCCS",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 232
+  },
+  {
+    "ticker": "CBSH",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 227
+  },
+  {
+    "ticker": "CCEP",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 233
+  },
+  {
+    "ticker": "CCL",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 236
+  },
+  {
+    "ticker": "CAVA",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 223
+  },
+  {
+    "ticker": "CCOI",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 237
+  },
+  {
+    "ticker": "CBU",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 229
+  },
+  {
+    "ticker": "CCK",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 235
+  },
+  {
+    "ticker": "CC",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 238
+  },
+  {
+    "ticker": "CB",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 231
+  },
+  {
+    "ticker": "CDNS",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 240
+  },
+  {
+    "ticker": "CDW",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 242
+  },
+  {
+    "ticker": "CEG",
+    "sector": "Utilities",
+    "sector_id": 11,
+    "stock_id": 243
+  },
+  {
+    "ticker": "CENTA",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 245
+  },
+  {
+    "ticker": "CELH",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 244
+  },
+  {
+    "ticker": "CCI",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 234
+  },
+  {
+    "ticker": "CE",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 248
+  },
+  {
+    "ticker": "CFG",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 249
+  },
+  {
+    "ticker": "CDP",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 241
+  },
+  {
+    "ticker": "CFLT",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 250
+  },
+  {
+    "ticker": "CERT",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 247
+  },
+  {
+    "ticker": "CENX",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 246
+  },
+  {
+    "ticker": "CFR",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 251
+  },
+  {
+    "ticker": "CGNX",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 252
+  },
+  {
+    "ticker": "CHCO",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 253
+  },
+  {
+    "ticker": "CHDN",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 254
+  },
+  {
+    "ticker": "CHE",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 255
+  },
+  {
+    "ticker": "CDE",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 239
+  },
+  {
+    "ticker": "CHH",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 256
+  },
+  {
+    "ticker": "CHKP",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 257
+  },
+  {
+    "ticker": "CHTR",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 259
+  },
+  {
+    "ticker": "CIEN",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 260
+  },
+  {
+    "ticker": "CIM",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 261
+  },
+  {
+    "ticker": "CINF",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 262
+  },
+  {
+    "ticker": "CHRW",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 258
+  },
+  {
+    "ticker": "CIVI",
+    "sector": "Energy",
+    "sector_id": 4,
+    "stock_id": 263
+  },
+  {
+    "ticker": "CI",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 264
+  },
+  {
+    "ticker": "CLBK",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 265
+  },
+  {
+    "ticker": "CLF",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 266
+  },
+  {
+    "ticker": "CLVT",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 268
+  },
+  {
+    "ticker": "CLSK",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 267
+  },
+  {
+    "ticker": "CLX",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 269
+  },
+  {
+    "ticker": "CL",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 270
+  },
+  {
+    "ticker": "CMA",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 271
+  },
+  {
+    "ticker": "CMCSA",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 272
+  },
+  {
+    "ticker": "CME",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 273
+  },
+  {
+    "ticker": "CMG",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 274
+  },
+  {
+    "ticker": "CMI",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 275
+  },
+  {
+    "ticker": "CMPR",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 276
+  },
+  {
+    "ticker": "CMS",
+    "sector": "Utilities",
+    "sector_id": 11,
+    "stock_id": 277
+  },
+  {
+    "ticker": "CNA",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 278
+  },
+  {
+    "ticker": "CNK",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 280
+  },
+  {
+    "ticker": "CNC",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 279
+  },
+  {
+    "ticker": "CNMD",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 281
+  },
+  {
+    "ticker": "CNM",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 282
+  },
+  {
+    "ticker": "CNP",
+    "sector": "Utilities",
+    "sector_id": 11,
+    "stock_id": 283
+  },
+  {
+    "ticker": "CNS",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 284
+  },
+  {
+    "ticker": "CNXC",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 285
+  },
+  {
+    "ticker": "COF",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 286
+  },
+  {
+    "ticker": "COIN",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 287
+  },
+  {
+    "ticker": "COKE",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 288
+  },
+  {
+    "ticker": "COLD",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 290
+  },
+  {
+    "ticker": "COLM",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 291
+  },
+  {
+    "ticker": "COOP",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 292
+  },
+  {
+    "ticker": "COP",
+    "sector": "Energy",
+    "sector_id": 4,
+    "stock_id": 294
+  },
+  {
+    "ticker": "COR",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 296
+  },
+  {
+    "ticker": "COST",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 297
+  },
+  {
+    "ticker": "COLB",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 289
+  },
+  {
+    "ticker": "COTY",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 298
+  },
+  {
+    "ticker": "COO",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 293
+  },
+  {
+    "ticker": "CPB",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 300
+  },
+  {
+    "ticker": "COUR",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 299
+  },
+  {
+    "ticker": "CPNG",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 301
+  },
+  {
+    "ticker": "CPRI",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 302
+  },
+  {
+    "ticker": "CPT",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 304
+  },
+  {
+    "ticker": "CRI",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 307
+  },
+  {
+    "ticker": "CRL",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 308
+  },
+  {
+    "ticker": "CORT",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 295
+  },
+  {
+    "ticker": "CPRT",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 303
+  },
+  {
+    "ticker": "CRDO",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 306
+  },
+  {
+    "ticker": "CRM",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 309
+  },
+  {
+    "ticker": "CROX",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 311
+  },
+  {
+    "ticker": "CRSP",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 312
+  },
+  {
+    "ticker": "CRBG",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 305
+  },
+  {
+    "ticker": "CRWD",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 315
+  },
+  {
+    "ticker": "CSCO",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 316
+  },
+  {
+    "ticker": "CRUS",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 313
+  },
+  {
+    "ticker": "CRNX",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 310
+  },
+  {
+    "ticker": "CTLT",
+    "sector": "Unknown",
+    "sector_id": 10,
+    "stock_id": 325
+  },
+  {
+    "ticker": "CSL",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 319
+  },
+  {
+    "ticker": "CSGS",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 318
+  },
+  {
+    "ticker": "CSR",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 320
+  },
+  {
+    "ticker": "CRVL",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 314
+  },
+  {
+    "ticker": "CSGP",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 317
+  },
+  {
+    "ticker": "CVCO",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 333
+  },
+  {
+    "ticker": "CVLT",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 334
+  },
+  {
+    "ticker": "CWK",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 338
+  },
+  {
+    "ticker": "CSTM",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 321
+  },
+  {
+    "ticker": "CTRE",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 327
+  },
+  {
+    "ticker": "CSWI",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 322
+  },
+  {
+    "ticker": "CVS",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 336
+  },
+  {
+    "ticker": "CWT",
+    "sector": "Utilities",
+    "sector_id": 11,
+    "stock_id": 340
+  },
+  {
+    "ticker": "CVBF",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 332
+  },
+  {
+    "ticker": "CTAS",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 324
+  },
+  {
+    "ticker": "CVX",
+    "sector": "Energy",
+    "sector_id": 4,
+    "stock_id": 337
+  },
+  {
+    "ticker": "CTRA",
+    "sector": "Energy",
+    "sector_id": 4,
+    "stock_id": 326
+  },
+  {
+    "ticker": "CSX",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 323
+  },
+  {
+    "ticker": "CWST",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 339
+  },
+  {
+    "ticker": "CTVA",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 329
+  },
+  {
+    "ticker": "CUBE",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 330
+  },
+  {
+    "ticker": "CVNA",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 335
+  },
+  {
+    "ticker": "CUZ",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 331
+  },
+  {
+    "ticker": "CTSH",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 328
+  },
+  {
+    "ticker": "CYBR",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 341
+  },
+  {
+    "ticker": "DAL",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 343
+  },
+  {
+    "ticker": "DAN",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 344
+  },
+  {
+    "ticker": "DASH",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 346
+  },
+  {
+    "ticker": "DBX",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 348
+  },
+  {
+    "ticker": "DCI",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 349
+  },
+  {
+    "ticker": "DDOG",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 350
+  },
+  {
+    "ticker": "DBRG",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 347
+  },
+  {
+    "ticker": "CYTK",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 342
+  },
+  {
+    "ticker": "DAR",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 345
+  },
+  {
+    "ticker": "DECK",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 351
+  },
+  {
+    "ticker": "DEI",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 352
+  },
+  {
+    "ticker": "DFS",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 354
+  },
+  {
+    "ticker": "DHI",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 356
+  },
+  {
+    "ticker": "DIOD",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 358
+  },
+  {
+    "ticker": "DGX",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 355
+  },
+  {
+    "ticker": "DKNG",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 360
+  },
+  {
+    "ticker": "DHR",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 357
+  },
+  {
+    "ticker": "DIS",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 359
+  },
+  {
+    "ticker": "DLR",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 364
+  },
+  {
+    "ticker": "DELL",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 353
+  },
+  {
+    "ticker": "DLB",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 362
+  },
+  {
+    "ticker": "DKS",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 361
+  },
+  {
+    "ticker": "DOCN",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 370
+  },
+  {
+    "ticker": "DOCS",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 371
+  },
+  {
+    "ticker": "DNB",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 367
+  },
+  {
+    "ticker": "DLX",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 366
+  },
+  {
+    "ticker": "DNUT",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 369
+  },
+  {
+    "ticker": "DOCU",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 372
+  },
+  {
+    "ticker": "DLTR",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 365
+  },
+  {
+    "ticker": "DNLI",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 368
+  },
+  {
+    "ticker": "DLO",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 363
+  },
+  {
+    "ticker": "DOW",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 375
+  },
+  {
+    "ticker": "DORM",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 373
+  },
+  {
+    "ticker": "DRI",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 379
+  },
+  {
+    "ticker": "DRVN",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 380
+  },
+  {
+    "ticker": "DOX",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 376
+  },
+  {
+    "ticker": "DUK",
+    "sector": "Utilities",
+    "sector_id": 11,
+    "stock_id": 383
+  },
+  {
+    "ticker": "DPZ",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 377
+  },
+  {
+    "ticker": "DTE",
+    "sector": "Utilities",
+    "sector_id": 11,
+    "stock_id": 381
+  },
+  {
+    "ticker": "DUOL",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 384
+  },
+  {
+    "ticker": "DVA",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 385
+  },
+  {
+    "ticker": "DT",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 382
+  },
+  {
+    "ticker": "DV",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 387
+  },
+  {
+    "ticker": "DXCM",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 388
+  },
+  {
+    "ticker": "DVN",
+    "sector": "Energy",
+    "sector_id": 4,
+    "stock_id": 386
+  },
+  {
+    "ticker": "DOV",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 374
+  },
+  {
+    "ticker": "EEFT",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 395
+  },
+  {
+    "ticker": "EBAY",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 390
+  },
+  {
+    "ticker": "DYN",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 389
+  },
+  {
+    "ticker": "EBC",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 391
+  },
+  {
+    "ticker": "DRH",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 378
+  },
+  {
+    "ticker": "EGP",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 397
+  },
+  {
+    "ticker": "EFX",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 396
+  },
+  {
+    "ticker": "EDR",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 394
+  },
+  {
+    "ticker": "ELAN",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 401
+  },
+  {
+    "ticker": "ECPG",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 393
+  },
+  {
+    "ticker": "EG",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 398
+  },
+  {
+    "ticker": "EIX",
+    "sector": "Utilities",
+    "sector_id": 11,
+    "stock_id": 400
+  },
+  {
+    "ticker": "ECL",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 392
+  },
+  {
+    "ticker": "EIG",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 399
+  },
+  {
+    "ticker": "ELME",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 403
+  },
+  {
+    "ticker": "ELF",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 402
+  },
+  {
+    "ticker": "ELS",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 404
+  },
+  {
+    "ticker": "ELV",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 405
+  },
+  {
+    "ticker": "EL",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 406
+  },
+  {
+    "ticker": "ENPH",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 409
+  },
+  {
+    "ticker": "EMR",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 408
+  },
+  {
+    "ticker": "EME",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 407
+  },
+  {
+    "ticker": "ENSG",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 411
+  },
+  {
+    "ticker": "ENTG",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 412
+  },
+  {
+    "ticker": "ENVX",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 413
+  },
+  {
+    "ticker": "ENR",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 410
+  },
+  {
+    "ticker": "EPAM",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 416
+  },
+  {
+    "ticker": "EOG",
+    "sector": "Energy",
+    "sector_id": 4,
+    "stock_id": 415
+  },
+  {
+    "ticker": "EPC",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 417
+  },
+  {
+    "ticker": "EQC",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 419
+  },
+  {
+    "ticker": "ENV",
+    "sector": "Unknown",
+    "sector_id": 10,
+    "stock_id": 414
+  },
+  {
+    "ticker": "EQH",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 420
+  },
+  {
+    "ticker": "EQT",
+    "sector": "Energy",
+    "sector_id": 4,
+    "stock_id": 423
+  },
+  {
+    "ticker": "EPRT",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 418
+  },
+  {
+    "ticker": "ESGR",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 424
+  },
+  {
+    "ticker": "EQR",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 422
+  },
+  {
+    "ticker": "EQIX",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 421
+  },
+  {
+    "ticker": "ESS",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 428
+  },
+  {
+    "ticker": "ESTC",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 429
+  },
+  {
+    "ticker": "ESNT",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 426
+  },
+  {
+    "ticker": "ESRT",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 427
+  },
+  {
+    "ticker": "ETN",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 430
+  },
+  {
+    "ticker": "EVTC",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 436
+  },
+  {
+    "ticker": "ETR",
+    "sector": "Utilities",
+    "sector_id": 11,
+    "stock_id": 431
+  },
+  {
+    "ticker": "ESI",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 425
+  },
+  {
+    "ticker": "EXPD",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 443
+  },
+  {
+    "ticker": "EVH",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 434
+  },
+  {
+    "ticker": "EXEL",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 441
+  },
+  {
+    "ticker": "EXP",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 446
+  },
+  {
+    "ticker": "ETSY",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 432
+  },
+  {
+    "ticker": "EXTR",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 448
+  },
+  {
+    "ticker": "EXPE",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 444
+  },
+  {
+    "ticker": "EYE",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 449
+  },
+  {
+    "ticker": "EXC",
+    "sector": "Utilities",
+    "sector_id": 11,
+    "stock_id": 440
+  },
+  {
+    "ticker": "FANG",
+    "sector": "Energy",
+    "sector_id": 4,
+    "stock_id": 451
+  },
+  {
+    "ticker": "FCF",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 455
+  },
+  {
+    "ticker": "FBP",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 454
+  },
+  {
+    "ticker": "EWBC",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 437
+  },
+  {
+    "ticker": "FAST",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 452
+  },
+  {
+    "ticker": "EXLS",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 442
+  },
+  {
+    "ticker": "ETWO",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 433
+  },
+  {
+    "ticker": "FBIN",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 453
+  },
+  {
+    "ticker": "EVRG",
+    "sector": "Utilities",
+    "sector_id": 11,
+    "stock_id": 435
+  },
+  {
+    "ticker": "EXAS",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 439
+  },
+  {
+    "ticker": "EW",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 438
+  },
+  {
+    "ticker": "EXR",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 447
+  },
+  {
+    "ticker": "EXPI",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 445
+  },
+  {
+    "ticker": "FAF",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 450
+  },
+  {
+    "ticker": "FCPT",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 457
+  },
+  {
+    "ticker": "FCNCA",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 456
+  },
+  {
+    "ticker": "FCX",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 458
+  },
+  {
+    "ticker": "FDS",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 459
+  },
+  {
+    "ticker": "FFBC",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 463
+  },
+  {
+    "ticker": "FDX",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 460
+  },
+  {
+    "ticker": "FERG",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 462
+  },
+  {
+    "ticker": "FFIV",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 465
+  },
+  {
+    "ticker": "FFIN",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 464
+  },
+  {
+    "ticker": "FHB",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 466
+  },
+  {
+    "ticker": "FELE",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 461
+  },
+  {
+    "ticker": "FHN",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 467
+  },
+  {
+    "ticker": "FIBK",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 468
+  },
+  {
+    "ticker": "FICO",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 469
+  },
+  {
+    "ticker": "FIS",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 470
+  },
+  {
+    "ticker": "FITB",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 471
+  },
+  {
+    "ticker": "FIZZ",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 475
+  },
+  {
+    "ticker": "FIVN",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 473
+  },
+  {
+    "ticker": "FI",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 476
+  },
+  {
+    "ticker": "FLEX",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 477
+  },
+  {
+    "ticker": "FLNC",
+    "sector": "Utilities",
+    "sector_id": 11,
+    "stock_id": 478
+  },
+  {
+    "ticker": "FIX",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 474
+  },
+  {
+    "ticker": "FIVE",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 472
+  },
+  {
+    "ticker": "FLYW",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 480
+  },
+  {
+    "ticker": "FLO",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 479
+  },
+  {
+    "ticker": "FMC",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 481
+  },
+  {
+    "ticker": "FNB",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 482
+  },
+  {
+    "ticker": "FNF",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 484
+  },
+  {
+    "ticker": "FORM",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 486
+  },
+  {
+    "ticker": "FOLD",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 485
+  },
+  {
+    "ticker": "FOUR",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 487
+  },
+  {
+    "ticker": "FND",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 483
+  },
+  {
+    "ticker": "FRME",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 491
+  },
+  {
+    "ticker": "FOXA",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 488
+  },
+  {
+    "ticker": "FOXF",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 489
+  },
+  {
+    "ticker": "FRHC",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 490
+  },
+  {
+    "ticker": "FROG",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 492
+  },
+  {
+    "ticker": "FRPT",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 493
+  },
+  {
+    "ticker": "FRT",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 495
+  },
+  {
+    "ticker": "FSLY",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 497
+  },
+  {
+    "ticker": "FRSH",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 494
+  },
+  {
+    "ticker": "FSLR",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 496
+  },
+  {
+    "ticker": "FSS",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 498
+  },
+  {
+    "ticker": "FTAI",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 499
+  },
+  {
+    "ticker": "FTNT",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 501
+  },
+  {
+    "ticker": "FTRE",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 502
+  },
+  {
+    "ticker": "FTDR",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 500
+  },
+  {
+    "ticker": "FTV",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 503
+  },
+  {
+    "ticker": "FVRR",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 507
+  },
+  {
+    "ticker": "FUN",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 506
+  },
+  {
+    "ticker": "FUL",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 505
+  },
+  {
+    "ticker": "GATX",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 511
+  },
+  {
+    "ticker": "FWONK",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 509
+  },
+  {
+    "ticker": "FWONA",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 508
+  },
+  {
+    "ticker": "FYBR",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 510
+  },
+  {
+    "ticker": "GBCI",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 512
+  },
+  {
+    "ticker": "GE",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 517
+  },
+  {
+    "ticker": "GDDY",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 514
+  },
+  {
+    "ticker": "GEHC",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 515
+  },
+  {
+    "ticker": "GES",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 516
+  },
+  {
+    "ticker": "GBX",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 513
+  },
+  {
+    "ticker": "GFF",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 518
+  },
+  {
+    "ticker": "GFS",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 519
+  },
+  {
+    "ticker": "FULT",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 504
+  },
+  {
+    "ticker": "GGG",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 520
+  },
+  {
+    "ticker": "GH",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 521
+  },
+  {
+    "ticker": "GKOS",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 525
+  },
+  {
+    "ticker": "GLBE",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 526
+  },
+  {
+    "ticker": "GIII",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 522
+  },
+  {
+    "ticker": "GLOB",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 527
+  },
+  {
+    "ticker": "GMED",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 529
+  },
+  {
+    "ticker": "GLW",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 528
+  },
+  {
+    "ticker": "GIS",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 524
+  },
+  {
+    "ticker": "GME",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 530
+  },
+  {
+    "ticker": "GMS",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 531
+  },
+  {
+    "ticker": "GM",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 532
+  },
+  {
+    "ticker": "GNRC",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 534
+  },
+  {
+    "ticker": "GNTX",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 535
+  },
+  {
+    "ticker": "GNL",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 533
+  },
+  {
+    "ticker": "GILD",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 523
+  },
+  {
+    "ticker": "GNW",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 536
+  },
+  {
+    "ticker": "GOLF",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 537
+  },
+  {
+    "ticker": "GOOGL",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 538
+  },
+  {
+    "ticker": "GPK",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 542
+  },
+  {
+    "ticker": "GPC",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 540
+  },
+  {
+    "ticker": "GOOG",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 539
+  },
+  {
+    "ticker": "GS",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 547
+  },
+  {
+    "ticker": "GRAB",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 544
+  },
+  {
+    "ticker": "GRMN",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 546
+  },
+  {
+    "ticker": "GRBK",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 545
+  },
+  {
+    "ticker": "GPI",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 541
+  },
+  {
+    "ticker": "GPN",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 543
+  },
+  {
+    "ticker": "GTLS",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 550
+  },
+  {
+    "ticker": "GTY",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 551
+  },
+  {
+    "ticker": "GTLB",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 549
+  },
+  {
+    "ticker": "GVA",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 552
+  },
+  {
+    "ticker": "GTES",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 548
+  },
+  {
+    "ticker": "GWRE",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 553
+  },
+  {
+    "ticker": "GXO",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 555
+  },
+  {
+    "ticker": "GWW",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 554
+  },
+  {
+    "ticker": "HAE",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 556
+  },
+  {
+    "ticker": "HASI",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 558
+  },
+  {
+    "ticker": "HAS",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 559
+  },
+  {
+    "ticker": "HAYW",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 560
+  },
+  {
+    "ticker": "HCA",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 563
+  },
+  {
+    "ticker": "HALO",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 557
+  },
+  {
+    "ticker": "HBI",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 562
+  },
+  {
+    "ticker": "HBAN",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 561
+  },
+  {
+    "ticker": "HCP",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 564
+  },
+  {
+    "ticker": "HEES",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 566
+  },
+  {
+    "ticker": "HD",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 565
+  },
+  {
+    "ticker": "HELE",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 569
+  },
+  {
+    "ticker": "HES",
+    "sector": "Energy",
+    "sector_id": 4,
+    "stock_id": 570
+  },
+  {
+    "ticker": "HHH",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 572
+  },
+  {
+    "ticker": "HGV",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 571
+  },
+  {
+    "ticker": "HEI",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 568
+  },
+  {
+    "ticker": "HLNE",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 579
+  },
+  {
+    "ticker": "HIW",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 575
+  },
+  {
+    "ticker": "HIG",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 573
+  },
+  {
+    "ticker": "HLF",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 576
+  },
+  {
+    "ticker": "HLI",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 578
+  },
+  {
+    "ticker": "HRL",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 594
+  },
+  {
+    "ticker": "HRMY",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 595
+  },
+  {
+    "ticker": "HSIC",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 596
+  },
+  {
+    "ticker": "HMN",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 581
+  },
+  {
+    "ticker": "HOOD",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 587
+  },
+  {
+    "ticker": "HPQ",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 590
+  },
+  {
+    "ticker": "HIMS",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 574
+  },
+  {
+    "ticker": "HQY",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 591
+  },
+  {
+    "ticker": "HLIO",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 577
+  },
+  {
+    "ticker": "HRB",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 592
+  },
+  {
+    "ticker": "HOLX",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 584
+  },
+  {
+    "ticker": "HPE",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 589
+  },
+  {
+    "ticker": "HNI",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 582
+  },
+  {
+    "ticker": "HLT",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 580
+  },
+  {
+    "ticker": "HOPE",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 588
+  },
+  {
+    "ticker": "HOMB",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 585
+  },
+  {
+    "ticker": "HOG",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 583
+  },
+  {
+    "ticker": "HON",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 586
+  },
+  {
+    "ticker": "HRI",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 593
+  },
+  {
+    "ticker": "HSY",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 598
+  },
+  {
+    "ticker": "HTLF",
+    "sector": "Unknown",
+    "sector_id": 10,
+    "stock_id": 601
+  },
+  {
+    "ticker": "HTH",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 599
+  },
+  {
+    "ticker": "HTLD",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 600
+  },
+  {
+    "ticker": "HUBB",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 603
+  },
+  {
+    "ticker": "HTZ",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 602
+  },
+  {
+    "ticker": "HUBG",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 604
+  },
+  {
+    "ticker": "HUM",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 606
+  },
+  {
+    "ticker": "HST",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 597
+  },
+  {
+    "ticker": "HUN",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 607
+  },
+  {
+    "ticker": "HUBS",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 605
+  },
+  {
+    "ticker": "HURN",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 608
+  },
+  {
+    "ticker": "IAC",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 612
+  },
+  {
+    "ticker": "H",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 611
+  },
+  {
+    "ticker": "HWM",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 610
+  },
+  {
+    "ticker": "HWC",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 609
+  },
+  {
+    "ticker": "IBM",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 615
+  },
+  {
+    "ticker": "IBKR",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 614
+  },
+  {
+    "ticker": "IBTX",
+    "sector": "Unknown",
+    "sector_id": 10,
+    "stock_id": 618
+  },
+  {
+    "ticker": "IART",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 613
+  },
+  {
+    "ticker": "IEX",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 624
+  },
+  {
+    "ticker": "IBOC",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 616
+  },
+  {
+    "ticker": "IIPR",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 626
+  },
+  {
+    "ticker": "IFF",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 625
+  },
+  {
+    "ticker": "IDXX",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 623
+  },
+  {
+    "ticker": "ICE",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 619
+  },
+  {
+    "ticker": "ILMN",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 627
+  },
+  {
+    "ticker": "INMD",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 634
+  },
+  {
+    "ticker": "IBP",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 617
+  },
+  {
+    "ticker": "IDCC",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 622
+  },
+  {
+    "ticker": "INDB",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 631
+  },
+  {
+    "ticker": "INGR",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 633
+  },
+  {
+    "ticker": "IMVT",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 629
+  },
+  {
+    "ticker": "INSM",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 635
+  },
+  {
+    "ticker": "INVH",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 640
+  },
+  {
+    "ticker": "IONQ",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 641
+  },
+  {
+    "ticker": "ICLR",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 620
+  },
+  {
+    "ticker": "ICUI",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 621
+  },
+  {
+    "ticker": "IOVA",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 645
+  },
+  {
+    "ticker": "INFA",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 632
+  },
+  {
+    "ticker": "IMAX",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 628
+  },
+  {
+    "ticker": "INTU",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 638
+  },
+  {
+    "ticker": "INTC",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 637
+  },
+  {
+    "ticker": "INCY",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 630
+  },
+  {
+    "ticker": "IONS",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 642
+  },
+  {
+    "ticker": "INSP",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 636
+  },
+  {
+    "ticker": "IOSP",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 643
+  },
+  {
+    "ticker": "IOT",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 644
+  },
+  {
+    "ticker": "INVA",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 639
+  },
+  {
+    "ticker": "IRM",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 650
+  },
+  {
+    "ticker": "IRT",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 652
+  },
+  {
+    "ticker": "IPG",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 647
+  },
+  {
+    "ticker": "IRTC",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 651
+  },
+  {
+    "ticker": "IPAR",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 646
+  },
+  {
+    "ticker": "IRDM",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 649
+  },
+  {
+    "ticker": "ISRG",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 654
+  },
+  {
+    "ticker": "IRWD",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 653
+  },
+  {
+    "ticker": "ITCI",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 655
+  },
+  {
+    "ticker": "ITGR",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 656
+  },
+  {
+    "ticker": "IT",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 659
+  },
+  {
+    "ticker": "ITRI",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 657
+  },
+  {
+    "ticker": "ITW",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 658
+  },
+  {
+    "ticker": "IQV",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 648
+  },
+  {
+    "ticker": "IVZ",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 660
+  },
+  {
+    "ticker": "JACK",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 661
+  },
+  {
+    "ticker": "JAMF",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 662
+  },
+  {
+    "ticker": "JCI",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 669
+  },
+  {
+    "ticker": "JBHT",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 665
+  },
+  {
+    "ticker": "JBLU",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 666
+  },
+  {
+    "ticker": "JBL",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 667
+  },
+  {
+    "ticker": "JJSF",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 673
+  },
+  {
+    "ticker": "JLL",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 675
+  },
+  {
+    "ticker": "JAZZ",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 663
+  },
+  {
+    "ticker": "JBGS",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 664
+  },
+  {
+    "ticker": "JKHY",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 674
+  },
+  {
+    "ticker": "JEF",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 670
+  },
+  {
+    "ticker": "JHG",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 672
+  },
+  {
+    "ticker": "JNJ",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 676
+  },
+  {
+    "ticker": "JELD",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 671
+  },
+  {
+    "ticker": "JNPR",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 677
+  },
+  {
+    "ticker": "JOBY",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 678
+  },
+  {
+    "ticker": "JOE",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 679
+  },
+  {
+    "ticker": "JPM",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 680
+  },
+  {
+    "ticker": "JWN",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 681
+  },
+  {
+    "ticker": "KAR",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 685
+  },
+  {
+    "ticker": "KBH",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 686
+  },
+  {
+    "ticker": "KALU",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 684
+  },
+  {
+    "ticker": "KAI",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 683
+  },
+  {
+    "ticker": "JBT",
+    "sector": "Unknown",
+    "sector_id": 10,
+    "stock_id": 668
+  },
+  {
+    "ticker": "KBR",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 687
+  },
+  {
+    "ticker": "JXN",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 682
+  },
+  {
+    "ticker": "KFY",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 691
+  },
+  {
+    "ticker": "KHC",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 692
+  },
+  {
+    "ticker": "KLIC",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 697
+  },
+  {
+    "ticker": "KDP",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 688
+  },
+  {
+    "ticker": "KEYS",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 690
+  },
+  {
+    "ticker": "KKR",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 694
+  },
+  {
+    "ticker": "KLAC",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 695
+  },
+  {
+    "ticker": "KEX",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 689
+  },
+  {
+    "ticker": "KMI",
+    "sector": "Energy",
+    "sector_id": 4,
+    "stock_id": 699
+  },
+  {
+    "ticker": "KIM",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 693
+  },
+  {
+    "ticker": "KMB",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 698
+  },
+  {
+    "ticker": "KMX",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 701
+  },
+  {
+    "ticker": "KMPR",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 700
+  },
+  {
+    "ticker": "KRC",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 706
+  },
+  {
+    "ticker": "KNX",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 704
+  },
+  {
+    "ticker": "KLG",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 696
+  },
+  {
+    "ticker": "KNSL",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 703
+  },
+  {
+    "ticker": "KRG",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 707
+  },
+  {
+    "ticker": "KTB",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 710
+  },
+  {
+    "ticker": "KNF",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 702
+  },
+  {
+    "ticker": "KRYS",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 708
+  },
+  {
+    "ticker": "KO",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 705
+  },
+  {
+    "ticker": "KSS",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 709
+  },
+  {
+    "ticker": "KVUE",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 711
+  },
+  {
+    "ticker": "LAD",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 715
+  },
+  {
+    "ticker": "LADR",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 714
+  },
+  {
+    "ticker": "LANC",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 717
+  },
+  {
+    "ticker": "LAMR",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 716
+  },
+  {
+    "ticker": "LAUR",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 718
+  },
+  {
+    "ticker": "KYMR",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 713
+  },
+  {
+    "ticker": "LAZ",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 719
+  },
+  {
+    "ticker": "LBRDK",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 721
+  },
+  {
+    "ticker": "LBTYA",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 722
+  },
+  {
+    "ticker": "LBRDA",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 720
+  },
+  {
+    "ticker": "LCII",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 725
+  },
+  {
+    "ticker": "LCID",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 724
+  },
+  {
+    "ticker": "LBTYK",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 723
+  },
+  {
+    "ticker": "KWR",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 712
+  },
+  {
+    "ticker": "LEG",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 729
+  },
+  {
+    "ticker": "LDOS",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 726
+  },
+  {
+    "ticker": "LEN.B",
+    "sector": "Unknown",
+    "sector_id": 10,
+    "stock_id": 730
+  },
+  {
+    "ticker": "LECO",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 728
+  },
+  {
+    "ticker": "LEA",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 727
+  },
+  {
+    "ticker": "LEN",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 731
+  },
+  {
+    "ticker": "LFUS",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 733
+  },
+  {
+    "ticker": "LFST",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 732
+  },
+  {
+    "ticker": "LHX",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 736
+  },
+  {
+    "ticker": "LGND",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 735
+  },
+  {
+    "ticker": "LII",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 737
+  },
+  {
+    "ticker": "LINE",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 739
+  },
+  {
+    "ticker": "LILAK",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 738
+  },
+  {
+    "ticker": "LGIH",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 734
+  },
+  {
+    "ticker": "LITE",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 740
+  },
+  {
+    "ticker": "LIVN",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 741
+  },
+  {
+    "ticker": "LKQ",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 742
+  },
+  {
+    "ticker": "LLYVK",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 744
+  },
+  {
+    "ticker": "LLYVA",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 743
+  },
+  {
+    "ticker": "LLY",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 745
+  },
+  {
+    "ticker": "LMND",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 746
+  },
+  {
+    "ticker": "LMT",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 747
+  },
+  {
+    "ticker": "LNC",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 748
+  },
+  {
+    "ticker": "LNG",
+    "sector": "Energy",
+    "sector_id": 4,
+    "stock_id": 749
+  },
+  {
+    "ticker": "LNN",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 750
+  },
+  {
+    "ticker": "LNW",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 752
+  },
+  {
+    "ticker": "LOPE",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 753
+  },
+  {
+    "ticker": "LNTH",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 751
+  },
+  {
+    "ticker": "LPX",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 756
+  },
+  {
+    "ticker": "LPLA",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 755
+  },
+  {
+    "ticker": "LRCX",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 757
+  },
+  {
+    "ticker": "LSCC",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 758
+  },
+  {
+    "ticker": "LSXMA",
+    "sector": "Unknown",
+    "sector_id": 10,
+    "stock_id": 760
+  },
+  {
+    "ticker": "LSTR",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 759
+  },
+  {
+    "ticker": "LULU",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 764
+  },
+  {
+    "ticker": "LTC",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 762
+  },
+  {
+    "ticker": "LSXMK",
+    "sector": "Unknown",
+    "sector_id": 10,
+    "stock_id": 761
+  },
+  {
+    "ticker": "LTH",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 763
+  },
+  {
+    "ticker": "LUMN",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 765
+  },
+  {
+    "ticker": "LVS",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 767
+  },
+  {
+    "ticker": "LW",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 768
+  },
+  {
+    "ticker": "LXP",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 769
+  },
+  {
+    "ticker": "LYFT",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 771
+  },
+  {
+    "ticker": "LOW",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 754
+  },
+  {
+    "ticker": "LYB",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 770
+  },
+  {
+    "ticker": "LYV",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 772
+  },
+  {
+    "ticker": "LUV",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 766
+  },
+  {
+    "ticker": "MAA",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 774
+  },
+  {
+    "ticker": "MAC",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 775
+  },
+  {
+    "ticker": "LZB",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 773
+  },
+  {
+    "ticker": "MANH",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 776
+  },
+  {
+    "ticker": "MARA",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 777
+  },
+  {
+    "ticker": "MASI",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 778
+  },
+  {
+    "ticker": "MBC",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 781
+  },
+  {
+    "ticker": "MCD",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 782
+  },
+  {
+    "ticker": "MA",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 780
+  },
+  {
+    "ticker": "MCHP",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 783
+  },
+  {
+    "ticker": "MCK",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 784
+  },
+  {
+    "ticker": "MCO",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 785
+  },
+  {
+    "ticker": "MCW",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 786
+  },
+  {
+    "ticker": "MATX",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 779
+  },
+  {
+    "ticker": "MDB",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 787
+  },
+  {
+    "ticker": "MDGL",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 788
+  },
+  {
+    "ticker": "MDT",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 790
+  },
+  {
+    "ticker": "MELI",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 792
+  },
+  {
+    "ticker": "META",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 793
+  },
+  {
+    "ticker": "MGM",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 795
+  },
+  {
+    "ticker": "MEDP",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 791
+  },
+  {
+    "ticker": "MDLZ",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 789
+  },
+  {
+    "ticker": "MFA",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 794
+  },
+  {
+    "ticker": "MHO",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 799
+  },
+  {
+    "ticker": "MGNI",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 796
+  },
+  {
+    "ticker": "MHK",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 798
+  },
+  {
+    "ticker": "MGRC",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 797
+  },
+  {
+    "ticker": "MKSI",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 803
+  },
+  {
+    "ticker": "MKL",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 802
+  },
+  {
+    "ticker": "MMSI",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 811
+  },
+  {
+    "ticker": "MLM",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 806
+  },
+  {
+    "ticker": "MLKN",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 805
+  },
+  {
+    "ticker": "MKTX",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 804
+  },
+  {
+    "ticker": "MKC",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 801
+  },
+  {
+    "ticker": "MMI",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 809
+  },
+  {
+    "ticker": "MMC",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 808
+  },
+  {
+    "ticker": "MNST",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 815
+  },
+  {
+    "ticker": "MMM",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 810
+  },
+  {
+    "ticker": "MMYT",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 813
+  },
+  {
+    "ticker": "MLTX",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 807
+  },
+  {
+    "ticker": "MOS",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 820
+  },
+  {
+    "ticker": "MOD",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 817
+  },
+  {
+    "ticker": "MMS",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 812
+  },
+  {
+    "ticker": "MOH",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 818
+  },
+  {
+    "ticker": "MIDD",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 800
+  },
+  {
+    "ticker": "MNDY",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 814
+  },
+  {
+    "ticker": "MORN",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 819
+  },
+  {
+    "ticker": "MODG",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 816
+  },
+  {
+    "ticker": "MPC",
+    "sector": "Energy",
+    "sector_id": 4,
+    "stock_id": 821
+  },
+  {
+    "ticker": "MQ",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 823
+  },
+  {
+    "ticker": "MPWR",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 822
+  },
+  {
+    "ticker": "MRK",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 824
+  },
+  {
+    "ticker": "MRNA",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 825
+  },
+  {
+    "ticker": "MRO",
+    "sector": "Unknown",
+    "sector_id": 10,
+    "stock_id": 826
+  },
+  {
+    "ticker": "MRUS",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 827
+  },
+  {
+    "ticker": "MRVI",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 828
+  },
+  {
+    "ticker": "MRVL",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 829
+  },
+  {
+    "ticker": "MSA",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 830
+  },
+  {
+    "ticker": "MSGE",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 833
+  },
+  {
+    "ticker": "MSGS",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 834
+  },
+  {
+    "ticker": "MSI",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 835
+  },
+  {
+    "ticker": "MSM",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 836
+  },
+  {
+    "ticker": "MSCI",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 831
+  },
+  {
+    "ticker": "MSTR",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 837
+  },
+  {
+    "ticker": "MSFT",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 832
+  },
+  {
+    "ticker": "MTB",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 839
+  },
+  {
+    "ticker": "MS",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 838
+  },
+  {
+    "ticker": "MTDR",
+    "sector": "Energy",
+    "sector_id": 4,
+    "stock_id": 841
+  },
+  {
+    "ticker": "MTG",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 842
+  },
+  {
+    "ticker": "MTH",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 843
+  },
+  {
+    "ticker": "MTN",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 844
+  },
+  {
+    "ticker": "MTTR",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 845
+  },
+  {
+    "ticker": "MTCH",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 840
+  },
+  {
+    "ticker": "MUSA",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 848
+  },
+  {
+    "ticker": "MXL",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 849
+  },
+  {
+    "ticker": "MYGN",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 850
+  },
+  {
+    "ticker": "NABL",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 851
+  },
+  {
+    "ticker": "MTX",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 846
+  },
+  {
+    "ticker": "MTZ",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 847
+  },
+  {
+    "ticker": "NATL",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 853
+  },
+  {
+    "ticker": "NCLH",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 857
+  },
+  {
+    "ticker": "NBTB",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 856
+  },
+  {
+    "ticker": "NBIX",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 855
+  },
+  {
+    "ticker": "NAVI",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 854
+  },
+  {
+    "ticker": "NET",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 864
+  },
+  {
+    "ticker": "NDAQ",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 859
+  },
+  {
+    "ticker": "NEOG",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 863
+  },
+  {
+    "ticker": "NDSN",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 860
+  },
+  {
+    "ticker": "NEU",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 865
+  },
+  {
+    "ticker": "NCNO",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 858
+  },
+  {
+    "ticker": "NEM",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 862
+  },
+  {
+    "ticker": "NGVT",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 868
+  },
+  {
+    "ticker": "NEE",
+    "sector": "Utilities",
+    "sector_id": 11,
+    "stock_id": 861
+  },
+  {
+    "ticker": "NI",
+    "sector": "Utilities",
+    "sector_id": 11,
+    "stock_id": 870
+  },
+  {
+    "ticker": "NFLX",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 867
+  },
+  {
+    "ticker": "NMRK",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 874
+  },
+  {
+    "ticker": "NOW",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 880
+  },
+  {
+    "ticker": "NHI",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 869
+  },
+  {
+    "ticker": "NOC",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 877
+  },
+  {
+    "ticker": "NKE",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 871
+  },
+  {
+    "ticker": "NNN",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 876
+  },
+  {
+    "ticker": "NRG",
+    "sector": "Utilities",
+    "sector_id": 11,
+    "stock_id": 881
+  },
+  {
+    "ticker": "NOVT",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 879
+  },
+  {
+    "ticker": "NSA",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 882
+  },
+  {
+    "ticker": "NMIH",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 873
+  },
+  {
+    "ticker": "NFE",
+    "sector": "Utilities",
+    "sector_id": 11,
+    "stock_id": 866
+  },
+  {
+    "ticker": "NNI",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 875
+  },
+  {
+    "ticker": "NLY",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 872
+  },
+  {
+    "ticker": "NOMD",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 878
+  },
+  {
+    "ticker": "NSC",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 883
+  },
+  {
+    "ticker": "NTAP",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 885
+  },
+  {
+    "ticker": "NTCT",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 887
+  },
+  {
+    "ticker": "NSIT",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 884
+  },
+  {
+    "ticker": "NTRA",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 890
+  },
+  {
+    "ticker": "NTNX",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 889
+  },
+  {
+    "ticker": "NTRS",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 891
+  },
+  {
+    "ticker": "NTLA",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 888
+  },
+  {
+    "ticker": "NUE",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 892
+  },
+  {
+    "ticker": "NTB",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 886
+  },
+  {
+    "ticker": "NVDA",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 896
+  },
+  {
+    "ticker": "NU",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 894
+  },
+  {
+    "ticker": "NVCR",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 895
+  },
+  {
+    "ticker": "NUVL",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 893
+  },
+  {
+    "ticker": "NVR",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 897
+  },
+  {
+    "ticker": "NWSA",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 902
+  },
+  {
+    "ticker": "NVST",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 898
+  },
+  {
+    "ticker": "NWL",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 901
+  },
+  {
+    "ticker": "NWBI",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 900
+  },
+  {
+    "ticker": "ODFL",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 908
+  },
+  {
+    "ticker": "NVT",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 899
+  },
+  {
+    "ticker": "NYCB",
+    "sector": "Unknown",
+    "sector_id": 10,
+    "stock_id": 906
+  },
+  {
+    "ticker": "NXPI",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 903
+  },
+  {
+    "ticker": "ODP",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 909
+  },
+  {
+    "ticker": "OEC",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 910
+  },
+  {
+    "ticker": "OKE",
+    "sector": "Energy",
+    "sector_id": 4,
+    "stock_id": 913
+  },
+  {
+    "ticker": "NXT",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 905
+  },
+  {
+    "ticker": "NYT",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 907
+  },
+  {
+    "ticker": "NXST",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 904
+  },
+  {
+    "ticker": "OMCL",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 917
+  },
+  {
+    "ticker": "OLED",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 915
+  },
+  {
+    "ticker": "OMF",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 919
+  },
+  {
+    "ticker": "OHI",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 912
+  },
+  {
+    "ticker": "OKTA",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 914
+  },
+  {
+    "ticker": "OLLI",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 916
+  },
+  {
+    "ticker": "OMC",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 918
+  },
+  {
+    "ticker": "ORA",
+    "sector": "Utilities",
+    "sector_id": 11,
+    "stock_id": 927
+  },
+  {
+    "ticker": "OPCH",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 924
+  },
+  {
+    "ticker": "ORLY",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 930
+  },
+  {
+    "ticker": "ORI",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 929
+  },
+  {
+    "ticker": "ONB",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 921
+  },
+  {
+    "ticker": "ORCL",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 928
+  },
+  {
+    "ticker": "OSIS",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 931
+  },
+  {
+    "ticker": "ONON",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 922
+  },
+  {
+    "ticker": "OPK",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 926
+  },
+  {
+    "ticker": "OPEN",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 925
+  },
+  {
+    "ticker": "OGN",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 911
+  },
+  {
+    "ticker": "OMI",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 920
+  },
+  {
+    "ticker": "ONTO",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 923
+  },
+  {
+    "ticker": "HEI.A",
+    "sector": "Unknown",
+    "sector_id": 10,
+    "stock_id": 567
+  },
+  {
+    "ticker": "PARA",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 941
+  },
+  {
+    "ticker": "PAGS",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 938
+  },
+  {
+    "ticker": "OWL",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 934
+  },
+  {
+    "ticker": "PAG",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 939
+  },
+  {
+    "ticker": "OTIS",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 932
+  },
+  {
+    "ticker": "PAYC",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 943
+  },
+  {
+    "ticker": "PBH",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 945
+  },
+  {
+    "ticker": "PAYX",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 944
+  },
+  {
+    "ticker": "PCOR",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 948
+  },
+  {
+    "ticker": "PDM",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 953
+  },
+  {
+    "ticker": "OXY",
+    "sector": "Energy",
+    "sector_id": 4,
+    "stock_id": 936
+  },
+  {
+    "ticker": "PFE",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 959
+  },
+  {
+    "ticker": "PCRX",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 949
+  },
+  {
+    "ticker": "OZK",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 937
+  },
+  {
+    "ticker": "OUT",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 933
+  },
+  {
+    "ticker": "PATH",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 942
+  },
+  {
+    "ticker": "PFGC",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 960
+  },
+  {
+    "ticker": "PECO",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 955
+  },
+  {
+    "ticker": "PCAR",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 946
+  },
+  {
+    "ticker": "PEGA",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 956
+  },
+  {
+    "ticker": "PANW",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 940
+  },
+  {
+    "ticker": "PHIN",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 966
+  },
+  {
+    "ticker": "PEP",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 958
+  },
+  {
+    "ticker": "PDCO",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 952
+  },
+  {
+    "ticker": "PCG",
+    "sector": "Utilities",
+    "sector_id": 11,
+    "stock_id": 947
+  },
+  {
+    "ticker": "PFSI",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 961
+  },
+  {
+    "ticker": "PINC",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 969
+  },
+  {
+    "ticker": "PINS",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 970
+  },
+  {
+    "ticker": "PGR",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 964
+  },
+  {
+    "ticker": "PCVX",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 951
+  },
+  {
+    "ticker": "PG",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 965
+  },
+  {
+    "ticker": "PCTY",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 950
+  },
+  {
+    "ticker": "PGRE",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 963
+  },
+  {
+    "ticker": "OXM",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 935
+  },
+  {
+    "ticker": "PHM",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 967
+  },
+  {
+    "ticker": "PEB",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 954
+  },
+  {
+    "ticker": "PHR",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 968
+  },
+  {
+    "ticker": "PGNY",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 962
+  },
+  {
+    "ticker": "PEN",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 957
+  },
+  {
+    "ticker": "PLMR",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 974
+  },
+  {
+    "ticker": "PLNT",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 975
+  },
+  {
+    "ticker": "PKG",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 972
+  },
+  {
+    "ticker": "PIPR",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 971
+  },
+  {
+    "ticker": "PLTR",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 976
+  },
+  {
+    "ticker": "PLUG",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 977
+  },
+  {
+    "ticker": "PNC",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 979
+  },
+  {
+    "ticker": "PLD",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 973
+  },
+  {
+    "ticker": "PNR",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 981
+  },
+  {
+    "ticker": "POST",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 984
+  },
+  {
+    "ticker": "PPBI",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 986
+  },
+  {
+    "ticker": "PRGS",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 991
+  },
+  {
+    "ticker": "POOL",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 983
+  },
+  {
+    "ticker": "PNFP",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 980
+  },
+  {
+    "ticker": "PPC",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 987
+  },
+  {
+    "ticker": "PPL",
+    "sector": "Utilities",
+    "sector_id": 11,
+    "stock_id": 989
+  },
+  {
+    "ticker": "PMT",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 978
+  },
+  {
+    "ticker": "PRGO",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 990
+  },
+  {
+    "ticker": "PPG",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 988
+  },
+  {
+    "ticker": "PR",
+    "sector": "Energy",
+    "sector_id": 4,
+    "stock_id": 999
+  },
+  {
+    "ticker": "PRU",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 997
+  },
+  {
+    "ticker": "PSA",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 1000
+  },
+  {
+    "ticker": "PRTA",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 996
+  },
+  {
+    "ticker": "PODD",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 982
+  },
+  {
+    "ticker": "PRI",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 993
+  },
+  {
+    "ticker": "PRK",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 994
+  },
+  {
+    "ticker": "PRIM",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 992
+  },
+  {
+    "ticker": "POWI",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 985
+  },
+  {
+    "ticker": "PSMT",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 1001
+  },
+  {
+    "ticker": "PRVA",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 998
+  },
+  {
+    "ticker": "PSTG",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1002
+  },
+  {
+    "ticker": "PTCT",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1004
+  },
+  {
+    "ticker": "PTC",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1005
+  },
+  {
+    "ticker": "PSX",
+    "sector": "Energy",
+    "sector_id": 4,
+    "stock_id": 1003
+  },
+  {
+    "ticker": "PVH",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1007
+  },
+  {
+    "ticker": "PWR",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1008
+  },
+  {
+    "ticker": "PRO",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 995
+  },
+  {
+    "ticker": "PYCR",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1009
+  },
+  {
+    "ticker": "PYPL",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1010
+  },
+  {
+    "ticker": "PZZA",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1011
+  },
+  {
+    "ticker": "QCOM",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1012
+  },
+  {
+    "ticker": "QLYS",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1014
+  },
+  {
+    "ticker": "QDEL",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1013
+  },
+  {
+    "ticker": "QRVO",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1015
+  },
+  {
+    "ticker": "PTON",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1006
+  },
+  {
+    "ticker": "NARI",
+    "sector": "Unknown",
+    "sector_id": 10,
+    "stock_id": 852
+  },
+  {
+    "ticker": "RCM",
+    "sector": "Unknown",
+    "sector_id": 10,
+    "stock_id": 1023
+  },
+  {
+    "ticker": "RAMP",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1017
+  },
+  {
+    "ticker": "RCL",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1022
+  },
+  {
+    "ticker": "REGN",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1027
+  },
+  {
+    "ticker": "RBLX",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 1020
+  },
+  {
+    "ticker": "RDN",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1026
+  },
+  {
+    "ticker": "RBCAA",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1019
+  },
+  {
+    "ticker": "QTWO",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1016
+  },
+  {
+    "ticker": "RARE",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1018
+  },
+  {
+    "ticker": "RDNT",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1025
+  },
+  {
+    "ticker": "RCUS",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1024
+  },
+  {
+    "ticker": "RKT",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1044
+  },
+  {
+    "ticker": "RIOT",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1039
+  },
+  {
+    "ticker": "RELY",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1028
+  },
+  {
+    "ticker": "RKLB",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1043
+  },
+  {
+    "ticker": "RGA",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1033
+  },
+  {
+    "ticker": "RH",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1038
+  },
+  {
+    "ticker": "RLAY",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1045
+  },
+  {
+    "ticker": "RITM",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 1040
+  },
+  {
+    "ticker": "RHI",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1036
+  },
+  {
+    "ticker": "RIVN",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1041
+  },
+  {
+    "ticker": "RJF",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1042
+  },
+  {
+    "ticker": "RCKT",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1021
+  },
+  {
+    "ticker": "REXR",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 1029
+  },
+  {
+    "ticker": "RLI",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1046
+  },
+  {
+    "ticker": "RGEN",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1034
+  },
+  {
+    "ticker": "RGLD",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 1035
+  },
+  {
+    "ticker": "REZI",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1031
+  },
+  {
+    "ticker": "RF",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1032
+  },
+  {
+    "ticker": "REYN",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1030
+  },
+  {
+    "ticker": "RHP",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 1037
+  },
+  {
+    "ticker": "RLJ",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 1047
+  },
+  {
+    "ticker": "RMBS",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1048
+  },
+  {
+    "ticker": "SBCF",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1079
+  },
+  {
+    "ticker": "RMD",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1049
+  },
+  {
+    "ticker": "RNG",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1050
+  },
+  {
+    "ticker": "SBH",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1080
+  },
+  {
+    "ticker": "ROK",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1056
+  },
+  {
+    "ticker": "ROP",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1058
+  },
+  {
+    "ticker": "SBLK",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1081
+  },
+  {
+    "ticker": "SBRA",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 1082
+  },
+  {
+    "ticker": "RNST",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1052
+  },
+  {
+    "ticker": "RNR",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1051
+  },
+  {
+    "ticker": "ROIC",
+    "sector": "Unknown",
+    "sector_id": 10,
+    "stock_id": 1054
+  },
+  {
+    "ticker": "ROCK",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1053
+  },
+  {
+    "ticker": "ROL",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1057
+  },
+  {
+    "ticker": "SBUX",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1083
+  },
+  {
+    "ticker": "SCCO",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 1084
+  },
+  {
+    "ticker": "ROKU",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 1055
+  },
+  {
+    "ticker": "SCHL",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 1085
+  },
+  {
+    "ticker": "SCHW",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1086
+  },
+  {
+    "ticker": "SCL",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 1087
+  },
+  {
+    "ticker": "RXRX",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1069
+  },
+  {
+    "ticker": "RYN",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 1071
+  },
+  {
+    "ticker": "RVTY",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1067
+  },
+  {
+    "ticker": "RVMD",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1066
+  },
+  {
+    "ticker": "RPRX",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1062
+  },
+  {
+    "ticker": "SABR",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1072
+  },
+  {
+    "ticker": "SAFT",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1073
+  },
+  {
+    "ticker": "ROST",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1059
+  },
+  {
+    "ticker": "RUSHA",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1065
+  },
+  {
+    "ticker": "RUN",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1064
+  },
+  {
+    "ticker": "RPM",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 1061
+  },
+  {
+    "ticker": "RXO",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1068
+  },
+  {
+    "ticker": "RYAN",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1070
+  },
+  {
+    "ticker": "RSG",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1063
+  },
+  {
+    "ticker": "SCS",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1089
+  },
+  {
+    "ticker": "SEE",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1092
+  },
+  {
+    "ticker": "SEIC",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1093
+  },
+  {
+    "ticker": "SEM",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1094
+  },
+  {
+    "ticker": "SEDG",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1091
+  },
+  {
+    "ticker": "SDGR",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1090
+  },
+  {
+    "ticker": "SCSC",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1088
+  },
+  {
+    "ticker": "SFBS",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1095
+  },
+  {
+    "ticker": "SFL",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1096
+  },
+  {
+    "ticker": "SFM",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 1097
+  },
+  {
+    "ticker": "RPD",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1060
+  },
+  {
+    "ticker": "SFNC",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1098
+  },
+  {
+    "ticker": "SGML",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 1099
+  },
+  {
+    "ticker": "SGRY",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1100
+  },
+  {
+    "ticker": "SHC",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1101
+  },
+  {
+    "ticker": "SHLS",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1102
+  },
+  {
+    "ticker": "SHOO",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1103
+  },
+  {
+    "ticker": "SHW",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 1104
+  },
+  {
+    "ticker": "SANA",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1076
+  },
+  {
+    "ticker": "SAM",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 1075
+  },
+  {
+    "ticker": "SAIA",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1074
+  },
+  {
+    "ticker": "SIGI",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1105
+  },
+  {
+    "ticker": "SIRI",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 1106
+  },
+  {
+    "ticker": "SJM",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 1110
+  },
+  {
+    "ticker": "SITC",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 1107
+  },
+  {
+    "ticker": "SITM",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1109
+  },
+  {
+    "ticker": "SITE",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1108
+  },
+  {
+    "ticker": "SKY",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1114
+  },
+  {
+    "ticker": "SLAB",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1115
+  },
+  {
+    "ticker": "SLB",
+    "sector": "Energy",
+    "sector_id": 4,
+    "stock_id": 1116
+  },
+  {
+    "ticker": "SJW",
+    "sector": "Utilities",
+    "sector_id": 11,
+    "stock_id": 1111
+  },
+  {
+    "ticker": "SKX",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1113
+  },
+  {
+    "ticker": "SLG",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 1118
+  },
+  {
+    "ticker": "SLM",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1119
+  },
+  {
+    "ticker": "SMAR",
+    "sector": "Unknown",
+    "sector_id": 10,
+    "stock_id": 1121
+  },
+  {
+    "ticker": "SLVM",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 1120
+  },
+  {
+    "ticker": "SMCI",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1122
+  },
+  {
+    "ticker": "SMG",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 1123
+  },
+  {
+    "ticker": "SLGN",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1117
+  },
+  {
+    "ticker": "SMPL",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 1124
+  },
+  {
+    "ticker": "SKT",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 1112
+  },
+  {
+    "ticker": "SMTC",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1125
+  },
+  {
+    "ticker": "SNAP",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 1126
+  },
+  {
+    "ticker": "SNDR",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1128
+  },
+  {
+    "ticker": "SNPS",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1130
+  },
+  {
+    "ticker": "SNOW",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1129
+  },
+  {
+    "ticker": "SNV",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1131
+  },
+  {
+    "ticker": "SNX",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1132
+  },
+  {
+    "ticker": "SOFI",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1134
+  },
+  {
+    "ticker": "SN",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1133
+  },
+  {
+    "ticker": "SNA",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1127
+  },
+  {
+    "ticker": "SONO",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1135
+  },
+  {
+    "ticker": "SON",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1136
+  },
+  {
+    "ticker": "SPGI",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1138
+  },
+  {
+    "ticker": "SPG",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 1139
+  },
+  {
+    "ticker": "SPB",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 1137
+  },
+  {
+    "ticker": "SBAC",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 1078
+  },
+  {
+    "ticker": "SASR",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1077
+  },
+  {
+    "ticker": "SPNT",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1141
+  },
+  {
+    "ticker": "SPOT",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 1142
+  },
+  {
+    "ticker": "SPHR",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 1140
+  },
+  {
+    "ticker": "SPR",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1143
+  },
+  {
+    "ticker": "SPSC",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1144
+  },
+  {
+    "ticker": "SPT",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1145
+  },
+  {
+    "ticker": "SQSP",
+    "sector": "Unknown",
+    "sector_id": 10,
+    "stock_id": 1147
+  },
+  {
+    "ticker": "SRCL",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1150
+  },
+  {
+    "ticker": "SPXC",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1146
+  },
+  {
+    "ticker": "SRE",
+    "sector": "Utilities",
+    "sector_id": 11,
+    "stock_id": 1151
+  },
+  {
+    "ticker": "SRCE",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1149
+  },
+  {
+    "ticker": "SQ",
+    "sector": "Unknown",
+    "sector_id": 10,
+    "stock_id": 1148
+  },
+  {
+    "ticker": "SRPT",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1152
+  },
+  {
+    "ticker": "SSB",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1153
+  },
+  {
+    "ticker": "SSD",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 1154
+  },
+  {
+    "ticker": "SSTK",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 1156
+  },
+  {
+    "ticker": "STAA",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1157
+  },
+  {
+    "ticker": "STAG",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 1158
+  },
+  {
+    "ticker": "SSNC",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1155
+  },
+  {
+    "ticker": "STBA",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1159
+  },
+  {
+    "ticker": "STE",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1160
+  },
+  {
+    "ticker": "STLD",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 1161
+  },
+  {
+    "ticker": "STNG",
+    "sector": "Energy",
+    "sector_id": 4,
+    "stock_id": 1163
+  },
+  {
+    "ticker": "STRA",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 1164
+  },
+  {
+    "ticker": "STX",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1168
+  },
+  {
+    "ticker": "STRL",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1165
+  },
+  {
+    "ticker": "STT",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1166
+  },
+  {
+    "ticker": "SUI",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 1170
+  },
+  {
+    "ticker": "STZ",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 1169
+  },
+  {
+    "ticker": "STNE",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1162
+  },
+  {
+    "ticker": "SUPN",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1172
+  },
+  {
+    "ticker": "SYM",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1179
+  },
+  {
+    "ticker": "SXT",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 1175
+  },
+  {
+    "ticker": "SWKS",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1173
+  },
+  {
+    "ticker": "SYBT",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1176
+  },
+  {
+    "ticker": "SYF",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1177
+  },
+  {
+    "ticker": "SWTX",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1174
+  },
+  {
+    "ticker": "STWD",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 1167
+  },
+  {
+    "ticker": "SYK",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1178
+  },
+  {
+    "ticker": "SYY",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 1181
+  },
+  {
+    "ticker": "TCBI",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1183
+  },
+  {
+    "ticker": "TDG",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1185
+  },
+  {
+    "ticker": "SYNA",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1180
+  },
+  {
+    "ticker": "S",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1182
+  },
+  {
+    "ticker": "TDS",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 1187
+  },
+  {
+    "ticker": "TDY",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1188
+  },
+  {
+    "ticker": "TDC",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1184
+  },
+  {
+    "ticker": "TFC",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1195
+  },
+  {
+    "ticker": "TEL",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1191
+  },
+  {
+    "ticker": "TECH",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1190
+  },
+  {
+    "ticker": "TENB",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1192
+  },
+  {
+    "ticker": "TEAM",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1189
+  },
+  {
+    "ticker": "TER",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1193
+  },
+  {
+    "ticker": "TEX",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1194
+  },
+  {
+    "ticker": "TDOC",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1186
+  },
+  {
+    "ticker": "TFSL",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1197
+  },
+  {
+    "ticker": "TFX",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1198
+  },
+  {
+    "ticker": "TGTX",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1200
+  },
+  {
+    "ticker": "TGNA",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 1199
+  },
+  {
+    "ticker": "TGT",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 1201
+  },
+  {
+    "ticker": "THC",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1202
+  },
+  {
+    "ticker": "TFIN",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1196
+  },
+  {
+    "ticker": "THO",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1204
+  },
+  {
+    "ticker": "TJX",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1207
+  },
+  {
+    "ticker": "THS",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 1206
+  },
+  {
+    "ticker": "THRM",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1205
+  },
+  {
+    "ticker": "THG",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1203
+  },
+  {
+    "ticker": "TMDX",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1209
+  },
+  {
+    "ticker": "TMHC",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1210
+  },
+  {
+    "ticker": "TMO",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1211
+  },
+  {
+    "ticker": "TNET",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1215
+  },
+  {
+    "ticker": "TNL",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1216
+  },
+  {
+    "ticker": "TMUS",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 1212
+  },
+  {
+    "ticker": "TNDM",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1214
+  },
+  {
+    "ticker": "TOL",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1217
+  },
+  {
+    "ticker": "TOST",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1218
+  },
+  {
+    "ticker": "TKO",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 1208
+  },
+  {
+    "ticker": "TOWN",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1219
+  },
+  {
+    "ticker": "TNC",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1213
+  },
+  {
+    "ticker": "TPG",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1220
+  },
+  {
+    "ticker": "TPR",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1223
+  },
+  {
+    "ticker": "TPH",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1221
+  },
+  {
+    "ticker": "TPL",
+    "sector": "Energy",
+    "sector_id": 4,
+    "stock_id": 1222
+  },
+  {
+    "ticker": "TRV",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1235
+  },
+  {
+    "ticker": "TRU",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1234
+  },
+  {
+    "ticker": "TRIP",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1227
+  },
+  {
+    "ticker": "TROX",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 1232
+  },
+  {
+    "ticker": "TROW",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1231
+  },
+  {
+    "ticker": "TREX",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1225
+  },
+  {
+    "ticker": "TRMB",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1228
+  },
+  {
+    "ticker": "TRUP",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1233
+  },
+  {
+    "ticker": "TRGP",
+    "sector": "Energy",
+    "sector_id": 4,
+    "stock_id": 1226
+  },
+  {
+    "ticker": "TSLA",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1237
+  },
+  {
+    "ticker": "TSCO",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1236
+  },
+  {
+    "ticker": "TTGT",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1242
+  },
+  {
+    "ticker": "TTEK",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1241
+  },
+  {
+    "ticker": "TWKS",
+    "sector": "Unknown",
+    "sector_id": 10,
+    "stock_id": 1245
+  },
+  {
+    "ticker": "TTD",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1240
+  },
+  {
+    "ticker": "TTWO",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 1243
+  },
+  {
+    "ticker": "TWLO",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1246
+  },
+  {
+    "ticker": "TRMK",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1229
+  },
+  {
+    "ticker": "TRNO",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 1230
+  },
+  {
+    "ticker": "TXG",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1249
+  },
+  {
+    "ticker": "TXN",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1250
+  },
+  {
+    "ticker": "TXRH",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1251
+  },
+  {
+    "ticker": "TSN",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 1238
+  },
+  {
+    "ticker": "TTC",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1239
+  },
+  {
+    "ticker": "TWST",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1247
+  },
+  {
+    "ticker": "TW",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1248
+  },
+  {
+    "ticker": "TXT",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1252
+  },
+  {
+    "ticker": "UAA",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1254
+  },
+  {
+    "ticker": "UAL",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1255
+  },
+  {
+    "ticker": "UBSI",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1257
+  },
+  {
+    "ticker": "UBER",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1256
+  },
+  {
+    "ticker": "UFPI",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 1259
+  },
+  {
+    "ticker": "UHAL.B",
+    "sector": "Unknown",
+    "sector_id": 10,
+    "stock_id": 1260
+  },
+  {
+    "ticker": "TT",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1244
+  },
+  {
+    "ticker": "TYL",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1253
+  },
+  {
+    "ticker": "UDR",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 1258
+  },
+  {
+    "ticker": "UHS",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1262
+  },
+  {
+    "ticker": "UHAL",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1261
+  },
+  {
+    "ticker": "UNF",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1266
+  },
+  {
+    "ticker": "UNP",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1269
+  },
+  {
+    "ticker": "UPBD",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1270
+  },
+  {
+    "ticker": "UNM",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1268
+  },
+  {
+    "ticker": "ULTA",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1264
+  },
+  {
+    "ticker": "UNH",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1267
+  },
+  {
+    "ticker": "UI",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1263
+  },
+  {
+    "ticker": "UPST",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1271
+  },
+  {
+    "ticker": "UMBF",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1265
+  },
+  {
+    "ticker": "USFD",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 1277
+  },
+  {
+    "ticker": "USNA",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 1278
+  },
+  {
+    "ticker": "VCYT",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1283
+  },
+  {
+    "ticker": "U",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1281
+  },
+  {
+    "ticker": "URBN",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1274
+  },
+  {
+    "ticker": "UWMC",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1280
+  },
+  {
+    "ticker": "URI",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1275
+  },
+  {
+    "ticker": "UPS",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1272
+  },
+  {
+    "ticker": "UPWK",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 1273
+  },
+  {
+    "ticker": "VIRT",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1288
+  },
+  {
+    "ticker": "USB",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1276
+  },
+  {
+    "ticker": "VAC",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1282
+  },
+  {
+    "ticker": "VEEV",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1284
+  },
+  {
+    "ticker": "VICI",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 1287
+  },
+  {
+    "ticker": "VIAV",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1286
+  },
+  {
+    "ticker": "VFC",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1285
+  },
+  {
+    "ticker": "VLO",
+    "sector": "Energy",
+    "sector_id": 4,
+    "stock_id": 1290
+  },
+  {
+    "ticker": "UTHR",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1279
+  },
+  {
+    "ticker": "VLTO",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1291
+  },
+  {
+    "ticker": "VKTX",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1289
+  },
+  {
+    "ticker": "VRE",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 1298
+  },
+  {
+    "ticker": "VMC",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 1293
+  },
+  {
+    "ticker": "VNOM",
+    "sector": "Energy",
+    "sector_id": 4,
+    "stock_id": 1295
+  },
+  {
+    "ticker": "VLY",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1292
+  },
+  {
+    "ticker": "VNT",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1296
+  },
+  {
+    "ticker": "VRNT",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1300
+  },
+  {
+    "ticker": "VOYA",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1297
+  },
+  {
+    "ticker": "VMI",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1294
+  },
+  {
+    "ticker": "VRSN",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1303
+  },
+  {
+    "ticker": "VRNS",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1299
+  },
+  {
+    "ticker": "VSH",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1308
+  },
+  {
+    "ticker": "VRTS",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1304
+  },
+  {
+    "ticker": "VRTX",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1305
+  },
+  {
+    "ticker": "VSTS",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1309
+  },
+  {
+    "ticker": "VRSK",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1302
+  },
+  {
+    "ticker": "VSCO",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1307
+  },
+  {
+    "ticker": "VRT",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1306
+  },
+  {
+    "ticker": "VRRM",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1301
+  },
+  {
+    "ticker": "VZ",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 1315
+  },
+  {
+    "ticker": "WAFD",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1319
+  },
+  {
+    "ticker": "VYX",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1314
+  },
+  {
+    "ticker": "WAB",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1318
+  },
+  {
+    "ticker": "VTR",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 1312
+  },
+  {
+    "ticker": "VVV",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1313
+  },
+  {
+    "ticker": "WBS",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1324
+  },
+  {
+    "ticker": "VST",
+    "sector": "Utilities",
+    "sector_id": 11,
+    "stock_id": 1310
+  },
+  {
+    "ticker": "V",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1316
+  },
+  {
+    "ticker": "WCC",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1325
+  },
+  {
+    "ticker": "WDC",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1328
+  },
+  {
+    "ticker": "VTRS",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1311
+  },
+  {
+    "ticker": "WDAY",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1327
+  },
+  {
+    "ticker": "WAT",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1321
+  },
+  {
+    "ticker": "WELL",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 1331
+  },
+  {
+    "ticker": "WABC",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1317
+  },
+  {
+    "ticker": "WBD",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 1323
+  },
+  {
+    "ticker": "WEC",
+    "sector": "Utilities",
+    "sector_id": 11,
+    "stock_id": 1330
+  },
+  {
+    "ticker": "WBA",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1322
+  },
+  {
+    "ticker": "WERN",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1333
+  },
+  {
+    "ticker": "WFRD",
+    "sector": "Energy",
+    "sector_id": 4,
+    "stock_id": 1336
+  },
+  {
+    "ticker": "WFC",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1335
+  },
+  {
+    "ticker": "WGO",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1337
+  },
+  {
+    "ticker": "WHR",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1338
+  },
+  {
+    "ticker": "WEX",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1334
+  },
+  {
+    "ticker": "WEN",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1332
+  },
+  {
+    "ticker": "WDFC",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 1329
+  },
+  {
+    "ticker": "WCN",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1326
+  },
+  {
+    "ticker": "WAL",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1320
+  },
+  {
+    "ticker": "WH",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1339
+  },
+  {
+    "ticker": "WING",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1340
+  },
+  {
+    "ticker": "WLK",
+    "sector": "Basic Materials",
+    "sector_id": 0,
+    "stock_id": 1342
+  },
+  {
+    "ticker": "WMB",
+    "sector": "Energy",
+    "sector_id": 4,
+    "stock_id": 1344
+  },
+  {
+    "ticker": "WMS",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1347
+  },
+  {
+    "ticker": "WMG",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 1345
+  },
+  {
+    "ticker": "WMK",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 1346
+  },
+  {
+    "ticker": "WIX",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1341
+  },
+  {
+    "ticker": "WLY",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 1343
+  },
+  {
+    "ticker": "WMT",
+    "sector": "Consumer Defensive",
+    "sector_id": 3,
+    "stock_id": 1348
+  },
+  {
+    "ticker": "WM",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1349
+  },
+  {
+    "ticker": "WRB",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1352
+  },
+  {
+    "ticker": "WSFS",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1356
+  },
+  {
+    "ticker": "WSM",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1357
+  },
+  {
+    "ticker": "WPC",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 1351
+  },
+  {
+    "ticker": "WSC",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1355
+  },
+  {
+    "ticker": "WRK",
+    "sector": "Unknown",
+    "sector_id": 10,
+    "stock_id": 1353
+  },
+  {
+    "ticker": "WOLF",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1350
+  },
+  {
+    "ticker": "WSBC",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1354
+  },
+  {
+    "ticker": "WSO",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1358
+  },
+  {
+    "ticker": "WTM",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1361
+  },
+  {
+    "ticker": "WST",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1359
+  },
+  {
+    "ticker": "WTFC",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1360
+  },
+  {
+    "ticker": "WYNN",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1366
+  },
+  {
+    "ticker": "WTRG",
+    "sector": "Utilities",
+    "sector_id": 11,
+    "stock_id": 1362
+  },
+  {
+    "ticker": "WTS",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1363
+  },
+  {
+    "ticker": "WU",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1365
+  },
+  {
+    "ticker": "XOM",
+    "sector": "Energy",
+    "sector_id": 4,
+    "stock_id": 1370
+  },
+  {
+    "ticker": "XP",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1372
+  },
+  {
+    "ticker": "XHR",
+    "sector": "Real Estate",
+    "sector_id": 8,
+    "stock_id": 1368
+  },
+  {
+    "ticker": "YOU",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1377
+  },
+  {
+    "ticker": "YELP",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 1375
+  },
+  {
+    "ticker": "WTW",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1364
+  },
+  {
+    "ticker": "XPO",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1371
+  },
+  {
+    "ticker": "XNCR",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1369
+  },
+  {
+    "ticker": "YETI",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1376
+  },
+  {
+    "ticker": "YUM",
+    "sector": "Consumer Cyclical",
+    "sector_id": 2,
+    "stock_id": 1378
+  },
+  {
+    "ticker": "XRAY",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1373
+  },
+  {
+    "ticker": "XYL",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1374
+  },
+  {
+    "ticker": "XENE",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1367
+  },
+  {
+    "ticker": "ZG",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 1383
+  },
+  {
+    "ticker": "ZBH",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1379
+  },
+  {
+    "ticker": "ZM",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1386
+  },
+  {
+    "ticker": "ZION",
+    "sector": "Financial Services",
+    "sector_id": 5,
+    "stock_id": 1385
+  },
+  {
+    "ticker": "ZD",
+    "sector": "Communication Services",
+    "sector_id": 1,
+    "stock_id": 1381
+  },
+  {
+    "ticker": "ZETA",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1382
+  },
+  {
+    "ticker": "ZS",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1387
+  },
+  {
+    "ticker": "ZBRA",
+    "sector": "Technology",
+    "sector_id": 9,
+    "stock_id": 1380
+  },
+  {
+    "ticker": "ZIM",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1384
+  },
+  {
+    "ticker": "ZTS",
+    "sector": "Healthcare",
+    "sector_id": 6,
+    "stock_id": 1388
+  },
+  {
+    "ticker": "ZWS",
+    "sector": "Industrials",
+    "sector_id": 7,
+    "stock_id": 1389
+  },
+  {
+    "ticker": "SUM",
+    "sector": "Unknown",
+    "sector_id": 10,
+    "stock_id": 1171
+  },
+  {
+    "ticker": "TPX",
+    "sector": "Unknown",
+    "sector_id": 10,
+    "stock_id": 1224
+  }
+]
