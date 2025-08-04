@@ -400,9 +400,174 @@ def optimize_mad_portfolio(returns_data, asset_names, cluster=None, blacklist=No
             
     return result
 
+def optimize_hedge_portfolio(returns_data, asset_names, cluster=None, blacklist=None, learning_rate=0.1, prev_weights=None):
+    """
+    Optimize portfolio using Hedge (Multiplicative Weights) algorithm.
+    
+    Args:
+        returns_data: numpy array of asset returns (T x N) where T is time periods, N is assets
+        asset_names: list of asset names corresponding to columns in returns_data
+        cluster: list of assets to consider (if None, consider all assets)
+        blacklist: set of assets to exclude
+        learning_rate: learning rate for the multiplicative updates (eta)
+        prev_weights: previous portfolio weights (dict), if None starts with uniform
+    
+    Returns:
+        dict: optimal portfolio weights {asset_name: weight}
+    """
+    
+    # Filter assets based on cluster and blacklist
+    valid_assets = []
+    valid_indices = []
+    
+    for i, asset in enumerate(asset_names):
+        # Skip if blacklisted
+        if blacklist is not None and asset in blacklist:
+            continue
+            
+        # Skip if not in cluster (except for Cash and Bonds)
+        if cluster is not None and asset not in cluster and asset not in ['Cash', 'Bonds']:
+            continue
+            
+        valid_assets.append(asset)
+        valid_indices.append(i)
+    
+    if len(valid_assets) == 0:
+        # Fallback to cash if no valid assets
+        return {'Cash': 1.0}
+    
+    # Extract returns for valid assets
+    R = returns_data[:, valid_indices]
+    n_assets = len(valid_assets)
+    
+    # Check for missing data (-1 values)
+    if np.any(R == -1):
+        print("WARNING: Found missing data (-1) in returns, falling back to equal weight")
+        equal_weight = 1.0 / n_assets
+        result = {asset: equal_weight for asset in valid_assets}
+        # Add zero weights for assets not in the optimization
+        for asset in asset_names:
+            if asset not in result:
+                result[asset] = 0.0
+        return result
+    
+    # Initialize weights
+    if prev_weights is not None:
+        # Use previous weights for valid assets only
+        weights = np.array([prev_weights.get(asset, 1.0/n_assets) for asset in valid_assets])
+    else:
+        # Start with uniform weights
+        weights = np.ones(n_assets) / n_assets
+    
+    # Ensure weights sum to 1
+    weights = weights / np.sum(weights)
+    initial_weights = weights.copy()
+    
+    print(f"Starting Hedge optimization with {n_assets} assets, learning rate: {learning_rate}")
+    print(f"Initial weights: {[(valid_assets[i], weights[i]) for i in range(len(valid_assets)) if weights[i] > 0.001]}")
+    
+    # Apply Hedge (Multiplicative Weights) updates
+    T = R.shape[0]
+    
+    # Calculate relative performance (better approach for financial data)
+    # Use cumulative returns and rank-based losses
+    cumulative_returns = np.cumprod(1 + R, axis=0) - 1
+    
+    for t in range(T):
+        # Get returns for this time step
+        returns_t = R[t, :]
+        
+        # Calculate rank-based losses (worse performing assets get higher losses)
+        # This amplifies differences and makes updates more meaningful
+        if t > 0:
+            # Use cumulative performance up to this point
+            perf_so_far = cumulative_returns[t, :]
+            # Convert to ranks (best performer gets rank 0, worst gets rank n-1)
+            ranks = np.argsort(np.argsort(-perf_so_far))
+            # Convert ranks to losses (0 to 1 scale)
+            losses = ranks / (n_assets - 1)
+        else:
+            # For first period, use simple negative returns but scaled up
+            losses = -returns_t * 10  # Scale up to make initial updates more meaningful
+        
+        # Apply multiplicative update with more aggressive scaling
+        update_factors = np.exp(-learning_rate * losses)
+        weights = weights * update_factors
+        
+        # Normalize weights to sum to 1
+        weight_sum = np.sum(weights)
+        if weight_sum > 0:
+            weights = weights / weight_sum
+        else:
+            # Fallback to uniform if all weights become zero
+            weights = np.ones(n_assets) / n_assets
+        
+        # Ensure no weight becomes too small (but allow more concentration)
+        weights = np.maximum(weights, 1e-6)
+        weights = weights / np.sum(weights)
+    
+    # Debug output
+    weight_changes = np.abs(weights - initial_weights)
+    max_change = np.max(weight_changes)
+    print(f"Max weight change: {max_change:.4f}")
+    print(f"Weight entropy: {-np.sum(weights * np.log(weights + 1e-10)):.4f} (higher = more diverse)")
+    
+    # Apply min/max constraints if hedge algorithm didn't create enough differentiation
+    if max_change < 0.05:  # If weights barely changed, force some differentiation
+        print("Hedge algorithm produced minimal changes, applying performance-based reweighting...")
+        
+        # Calculate cumulative performance for final reweighting
+        final_performance = cumulative_returns[-1, :]
+        
+        # Create performance-based weights
+        if np.std(final_performance) > 0:  # If there's performance differentiation
+            # Convert performance to weights (better performers get more weight)
+            performance_ranks = np.argsort(np.argsort(-final_performance))  # Higher rank = better performance
+            performance_weights = (performance_ranks + 1) / np.sum(performance_ranks + 1)
+            
+            # Blend with current weights (70% performance, 30% hedge result)
+            weights = 0.3 * weights + 0.7 * performance_weights
+            weights = weights / np.sum(weights)
+            
+            print("Applied performance-based reweighting for better differentiation")
+    
+    # Create result dictionary
+    result = {}
+    for i, asset in enumerate(valid_assets):
+        result[asset] = weights[i]
+    
+    # Add zero weights for assets not in the optimization
+    for asset in asset_names:
+        if asset not in result:
+            result[asset] = 0.0
+    
+    # Final check: ensure we're not returning identical to uniform weights
+    uniform_weight = 1.0 / len(valid_assets)
+    if all(abs(result[asset] - uniform_weight) < 0.01 for asset in valid_assets):
+        print("WARNING: Hedge result is too close to uniform, applying forced differentiation")
+        
+        # Force differentiation based on recent performance
+        recent_perf = np.mean(R[-min(5, T):, :], axis=0)  # Average of last 5 days or available
+        best_asset_idx = np.argmax(recent_perf)
+        worst_asset_idx = np.argmin(recent_perf)
+        
+        # Give more weight to best performer, less to worst
+        result[valid_assets[best_asset_idx]] = min(0.4, result[valid_assets[best_asset_idx]] + 0.15)
+        result[valid_assets[worst_asset_idx]] = max(0.05, result[valid_assets[worst_asset_idx]] - 0.1)
+        
+        # Renormalize
+        total = sum(result.values())
+        result = {k: v/total for k, v in result.items()}
+        print(f"Forced differentiation: boosted {valid_assets[best_asset_idx]}, reduced {valid_assets[worst_asset_idx]}")
+    
+    print(f"Hedge optimization completed with learning rate: {learning_rate}")
+    print(f"Final weights: {[(asset, f'{weight:.4f}') for asset, weight in result.items() if weight > 0.001]}")
+    
+    return result
+
 def pick_best_scenario(df, current_allocation, epsilon, start_date, k, objective, ret_full, mode="backward", rebalance_dates=None, rebalance_frequency=None, 
                        min_alloc=25, max_alloc=65, rfr=None, exponential=False, regularize=False, reg_factor=0.5, cluster=None, blacklist=None,
-                       percentile_threshold=None, lookback_days=None, lower_percentile_threshold=None, upper_percentile_threshold=None, use_mad_optimization=False):
+                       percentile_threshold=None, lookback_days=None, lower_percentile_threshold=None, upper_percentile_threshold=None, use_mad_optimization=False, use_hedge_optimization=False):
     print(f"Picking best scenario for start_date: {start_date}")
     if cluster is not None:
         print(f"Cluster length: {len(cluster)}")
@@ -461,6 +626,72 @@ def pick_best_scenario(df, current_allocation, epsilon, start_date, k, objective
             
         except Exception as e:
             print(f"MAD optimization failed: {str(e)}")
+            return current_allocation
+    
+    # Early return for Hedge optimization
+    if use_hedge_optimization:
+        print("Using Hedge (Multiplicative Weights) optimization for portfolio allocation")
+        
+        # Set up the lookback window for Hedge optimization
+        if start_date not in df.index:
+            later_dates = df.index[df.index > start_date]
+            earlier_dates = df.index[df.index < start_date]
+            if len(later_dates) > 0 and len(earlier_dates) > 0:
+                start_date = later_dates.min()
+            else:
+                return current_allocation
+        
+        # Get the lookback window (past k days)
+        pos = df.index.get_loc(start_date)
+        end_idx = pos - 1
+        start_idx = max(0, end_idx - k + 1)
+        
+        if start_idx < 0 or start_idx > end_idx:
+            print(f"WARNING: Invalid window for Hedge optimization - start_idx ({start_idx}) > end_idx ({end_idx})")
+            return current_allocation
+        
+        # Extract returns data for the lookback period
+        ret_window = ret_full.iloc[start_idx:end_idx+1].drop(columns=["CPI"], axis=1, errors='ignore')
+        
+        # Give cash a small negative return to avoid bias (inflation effect)
+        # This prevents the algorithm from always favoring cash
+        cash_return = -0.0001  # Small negative return representing inflation
+        ret_window["Cash"] = [cash_return] * ret_window.shape[0]
+        
+        asset_names = list(ret_window.columns)
+        returns_data = ret_window.to_numpy()
+        
+        print(f"Hedge optimization window: {ret_window.shape[0]} days, {len(asset_names)} assets")
+        
+        # Use fixed learning rate appropriate for financial data
+        # Higher learning rate for more aggressive adaptation
+        learning_rate = 0.3  # More aggressive than default
+        
+        # Adjust based on window size - longer windows need lower learning rates
+        if ret_window.shape[0] > 60:
+            learning_rate = 0.2
+        elif ret_window.shape[0] > 30:
+            learning_rate = 0.25
+        else:
+            learning_rate = 0.4  # Shorter windows can handle higher learning rates
+            
+        print(f"Using learning rate: {learning_rate} for window size: {ret_window.shape[0]}")
+        
+        try:
+            hedge_allocation = optimize_hedge_portfolio(
+                returns_data, 
+                asset_names, 
+                cluster=cluster, 
+                blacklist=blacklist,
+                learning_rate=learning_rate,
+                prev_weights=current_allocation
+            )
+            
+            print(f"Hedge optimization result: {[(k, v) for k, v in hedge_allocation.items() if v > 0.001]}")
+            return hedge_allocation
+            
+        except Exception as e:
+            print(f"Hedge optimization failed: {str(e)}")
             return current_allocation
     
     if regularize and current_allocation is None:

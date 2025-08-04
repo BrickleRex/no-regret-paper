@@ -68,7 +68,7 @@ def run_backtest(df, tickers_file, initial_capital=10000, rebalance_frequency='M
                  derisk_mode=False, derisk_threshold=0.05, derisk_duration=3, derisk_lookahead=14,
                  debug=True, rfr=None, exponential=False, logger=None, write_alloc=False, fee_type=None, fee_pct=0.0, fee_per_share=0.0, regularize=False, reg_factor=0.5,
                  percentile_threshold=None, lookback_days=None, lower_percentile_threshold=None, upper_percentile_threshold=None, hedge=True,
-                 fng_threshold_high=None, fng_threshold_low=None, change_in_fng_threshold=None, set_all_cash_range=False, set_all_cash_change=False, use_mad_optimization=False):
+                 fng_threshold_high=None, fng_threshold_low=None, change_in_fng_threshold=None, set_all_cash_range=False, set_all_cash_change=False, use_mad_optimization=False, use_hedge_optimization=False):
 
     logger.log_variable("initial_capital", initial_capital)
     logger.log_variable("rebalance_frequency", rebalance_frequency)
@@ -102,6 +102,7 @@ def run_backtest(df, tickers_file, initial_capital=10000, rebalance_frequency='M
     logger.log_variable("set_all_cash_range", set_all_cash_range)
     logger.log_variable("set_all_cash_change", set_all_cash_change)
     logger.log_variable("use_mad_optimization", use_mad_optimization)
+    logger.log_variable("use_hedge_optimization", use_hedge_optimization)
     total_fee = 0.0
     
     # Store original cluster string to check against on each rebalancing date
@@ -339,7 +340,7 @@ def run_backtest(df, tickers_file, initial_capital=10000, rebalance_frequency='M
             best_allocation = pick_best_scenario(df, allocation, epsilon, date, k, objective, ret_full, mode=mode, rebalance_dates=rebalance_dates, rebalance_frequency=rebalance_frequency, 
                                                  rfr=rfr, min_alloc=min_alloc, max_alloc=max_alloc, exponential=exponential, regularize=regularize, reg_factor=reg_factor, 
                                                  cluster=active_cluster, blacklist=blacklisted_assets, percentile_threshold=percentile_threshold, lookback_days=lookback_days, 
-                                                 lower_percentile_threshold=lower_percentile_threshold, upper_percentile_threshold=upper_percentile_threshold, use_mad_optimization=use_mad_optimization)
+                                                 lower_percentile_threshold=lower_percentile_threshold, upper_percentile_threshold=upper_percentile_threshold, use_mad_optimization=use_mad_optimization, use_hedge_optimization=use_hedge_optimization)
 
             best_allocation = {asset: round(weight, 4) for asset, weight in best_allocation.items()}
             sum_alloc = sum(best_allocation.values())

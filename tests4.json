@@ -22,10 +22,11 @@
     "lower_percentile_threshold": null,
     "upper_percentile_threshold": null,
     "hedge": 0,
-    "fng_threshold_high": 90,
-    "fng_threshold_low": 10,
+    "fng_threshold_high": 100,
+    "fng_threshold_low": 0,
     "change_in_fng_threshold": [0, 20, 5],
     "set_all_cash_range": 1,
     "set_all_cash_change": 1,
-    "use_mad_optimization": 1
+    "use_mad_optimization": 1,
+    "use_hedge_optimization": 1
 }]
