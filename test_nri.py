@@ -120,7 +120,7 @@ def grid_search_parameters_only_derisk(train_df, rebalance_frequency, objective,
 def run_complete_backtest(universe, start_date, end_date, tickers_file, rebalance_frequency, objective, k, min_alloc, max_alloc, exponential, cluster_string, test_derisk, derisk_threshold, derisk_duration, derisk_lookahead,
                           regularize, reg_factor, percentile_threshold=None, lower_percentile_threshold=None, upper_percentile_threshold=None, 
                           lookback_days=None, write_csv=False, hedge=True,
-                          fng_threshold_high=None, fng_threshold_low=None, change_in_fng_threshold=None, set_all_cash_range=False, set_all_cash_change=False):
+                          fng_threshold_high=None, fng_threshold_low=None, change_in_fng_threshold=None, set_all_cash_range=False, set_all_cash_change=False, use_mad_optimization=False):
     hedge_str = "hedged" if hedge else "unhedged"
     fng_str = ""
     if fng_threshold_high is not None:
@@ -137,8 +137,9 @@ def run_complete_backtest(universe, start_date, end_date, tickers_file, rebalanc
         fng_str += "fng_thresh_change_None"
         
     percentile_threshold_str = f"percentile_{percentile_threshold}_lookback_{lookback_days}" if percentile_threshold is not None else "percentile_None_lookback_None"
+    mad_str = "mad" if use_mad_optimization else "scenario"
         
-    logger = Logger(tag=f"{rebalance_frequency}_{objective}_{k}_{cluster_string}_{hedge_str}_{fng_str}_{percentile_threshold_str}", writer=True)
+    logger = Logger(tag=f"{rebalance_frequency}_{objective}_{k}_{cluster_string}_{hedge_str}_{fng_str}_{percentile_threshold_str}_{mad_str}", writer=True)
     
     universe_to_filename = {"SPDR500": "combined_data3.csv", "SECTOR-ETFs": "combined_stock_data_etfs.csv", "COCKROACH": "combined_data2.csv"}
 
@@ -196,6 +197,7 @@ def run_complete_backtest(universe, start_date, end_date, tickers_file, rebalanc
     logger.log_variable("change_in_fng_threshold", change_in_fng_threshold)
     logger.log_variable("set_all_cash_range", set_all_cash_range)
     logger.log_variable("set_all_cash_change", set_all_cash_change)
+    logger.log_variable("use_mad_optimization", use_mad_optimization)
     logger.write(f"Shape of test data: {test_df.shape}")
     
     vars_dict = {
@@ -225,6 +227,7 @@ def run_complete_backtest(universe, start_date, end_date, tickers_file, rebalanc
         "change_in_fng_threshold": change_in_fng_threshold,
         "set_all_cash_range": set_all_cash_range,
         "set_all_cash_change": set_all_cash_change,
+        "use_mad_optimization": use_mad_optimization,
     }
     
     # logger.write(f"Variables: {vars_dict}")
@@ -242,7 +245,7 @@ def run_complete_backtest(universe, start_date, end_date, tickers_file, rebalanc
     logger.write("================\nGold Buy & Hold\n================")
     gold_results = run_gold_buy_and_hold(test_df, initial_capital=10000, logger=logger)
 
-    logger.write("================\nRegret Learning\n================")
+    logger.write("================\nRegret Learning (Scenario-based)\n================")
     st = time.time()
     regret_results, _, regret_rebalance_dates = run_backtest(test_df, tickers_file=tickers_file, initial_capital=10000, rebalance_frequency=rebalance_frequency, cluster_string=cluster_string,
                                      bond_years=10, epsilon=20, k=k, objective=objective, min_alloc=min_alloc, max_alloc=max_alloc, debug=True, rfr=rfr, 
@@ -250,18 +253,36 @@ def run_complete_backtest(universe, start_date, end_date, tickers_file, rebalanc
                                      percentile_threshold=percentile_threshold, lookback_days=lookback_days, lower_percentile_threshold=lower_percentile_threshold,
                                      upper_percentile_threshold=upper_percentile_threshold, hedge=hedge,
                                      fng_threshold_high=fng_threshold_high, fng_threshold_low=fng_threshold_low, change_in_fng_threshold=change_in_fng_threshold,
-                                     set_all_cash_range=set_all_cash_range, set_all_cash_change=set_all_cash_change)
+                                     set_all_cash_range=set_all_cash_range, set_all_cash_change=set_all_cash_change, use_mad_optimization=False)
     
     test_ann_return, test_vol, test_mdd, test_downside_deviation, metric, [sr, sortino, calmar, sorcal] = compute_metrics(regret_results, objective=objective, rfr=rfr)
     en = time.time()
-    logger.write(f"Test set performance with epsilon={20}, k={k}: Annualized Return={test_ann_return:.2f}%, Vol={test_vol:.4f}, Downside Deviation={test_downside_deviation:.4f}, MDD={test_mdd:.4f} (Sharpe={sr:.4f}, Sortino={sortino:.4f}, Calmar={calmar:.4f}, Sorcal={sorcal:.4f}) in {en-st:.2f} seconds")
+    logger.write(f"Scenario-based performance with epsilon={20}, k={k}: Annualized Return={test_ann_return:.2f}%, Vol={test_vol:.4f}, Downside Deviation={test_downside_deviation:.4f}, MDD={test_mdd:.4f} (Sharpe={sr:.4f}, Sortino={sortino:.4f}, Calmar={calmar:.4f}, Sorcal={sorcal:.4f}) in {en-st:.2f} seconds")
+    
+    # MAD Optimization approach (if enabled)
+    mad_results = None
+    derisked_mad_results = None
+    if use_mad_optimization:
+        logger.write("================\nMAD Optimization\n================")
+        st = time.time()
+        mad_results, _, _ = run_backtest(test_df, tickers_file=tickers_file, initial_capital=10000, rebalance_frequency=rebalance_frequency, cluster_string=cluster_string,
+                                         bond_years=10, epsilon=20, k=k, objective=objective, min_alloc=min_alloc, max_alloc=max_alloc, debug=True, rfr=rfr, 
+                                         exponential=exponential, logger=logger, write_alloc=True, fee_type="per_share", fee_pct=0.0, fee_per_share=0.00, regularize=regularize, reg_factor=reg_factor,
+                                         percentile_threshold=percentile_threshold, lookback_days=lookback_days, lower_percentile_threshold=lower_percentile_threshold,
+                                         upper_percentile_threshold=upper_percentile_threshold, hedge=hedge,
+                                         fng_threshold_high=fng_threshold_high, fng_threshold_low=fng_threshold_low, change_in_fng_threshold=change_in_fng_threshold,
+                                         set_all_cash_range=set_all_cash_range, set_all_cash_change=set_all_cash_change, use_mad_optimization=True)
+        
+        mad_ann_return, mad_vol, mad_mdd, mad_downside_deviation, mad_metric, [mad_sr, mad_sortino, mad_calmar, mad_sorcal] = compute_metrics(mad_results, objective=objective, rfr=rfr)
+        en = time.time()
+        logger.write(f"MAD optimization performance with k={k}: Annualized Return={mad_ann_return:.2f}%, Vol={mad_vol:.4f}, Downside Deviation={mad_downside_deviation:.4f}, MDD={mad_mdd:.4f} (Sharpe={mad_sr:.4f}, Sortino={mad_sortino:.4f}, Calmar={mad_calmar:.4f}, Sorcal={mad_sorcal:.4f}) in {en-st:.2f} seconds")
     
     # derisk_results = grid_search_parameters_only_derisk(test_df, rebalance_frequency, objective, derisk_threshold_start, derisk_threshold_end, derisk_threshold_step, derisk_duration_start, derisk_duration_end, derisk_duration_step, derisk_lookahead_start, derisk_lookahead_end, derisk_lookahead_step, epsilon=20, k=k, min_alloc=min_alloc, max_alloc=max_alloc, initial_capital=10000, years=10, logger=logger, rfr=rfr, exponential=exponential)
     # derisk_results_df = pd.DataFrame(derisk_results)
     # derisk_results_df.to_csv(f"derisk_results_{rebalance_frequency}_{objective}_{k}_{min_alloc}_{max_alloc}.csv", index=False)
     
     if test_derisk:
-        logger.write("================\nDerisked Portfolio\n================")
+        logger.write("================\nDerisked Portfolio (Scenario-based)\n================")
         st = time.time()
         derisked_results, _ = run_backtest(test_df, tickers_file=tickers_file, initial_capital=10000, rebalance_frequency=rebalance_frequency, cluster_string=cluster_string, mode="backward", derisk_mode=True, 
                                         derisk_threshold=derisk_threshold, derisk_duration=derisk_duration, derisk_lookahead=derisk_lookahead,
@@ -269,11 +290,27 @@ def run_complete_backtest(universe, start_date, end_date, tickers_file, rebalanc
                                         percentile_threshold=percentile_threshold, lookback_days=lookback_days, lower_percentile_threshold=lower_percentile_threshold,
                                         upper_percentile_threshold=upper_percentile_threshold, hedge=hedge,
                                         fng_threshold_high=fng_threshold_high, fng_threshold_low=fng_threshold_low, change_in_fng_threshold=change_in_fng_threshold,
-                                        set_all_cash_range=set_all_cash_range, set_all_cash_change=set_all_cash_change)
+                                        set_all_cash_range=set_all_cash_range, set_all_cash_change=set_all_cash_change, use_mad_optimization=False)
         
         derisked_ann_return, derisked_vol, derisked_mdd, derisked_downside_deviation, derisked_metric, [derisked_sr, derisked_sortino, derisked_calmar, derisked_sorcal] = compute_metrics(derisked_results, objective=objective, rfr=rfr)
         en = time.time()
-        logger.write(f"Derisked portfolio performance with epsilon={20}, k={k}: Annualized Return={derisked_ann_return:.2f}%, Vol={derisked_vol:.4f}, MDD={derisked_mdd:.4f} (Sharpe={derisked_sr:.4f}, Sortino={derisked_sortino:.4f}, Calmar={derisked_calmar:.4f}, Sorcal={derisked_sorcal:.4f}) in {en-st:.2f} seconds")
+        logger.write(f"Derisked scenario-based performance with epsilon={20}, k={k}: Annualized Return={derisked_ann_return:.2f}%, Vol={derisked_vol:.4f}, MDD={derisked_mdd:.4f} (Sharpe={derisked_sr:.4f}, Sortino={derisked_sortino:.4f}, Calmar={derisked_calmar:.4f}, Sorcal={derisked_sorcal:.4f}) in {en-st:.2f} seconds")
+        
+        # Derisked MAD approach (if enabled)
+        if use_mad_optimization:
+            logger.write("================\nDerisked MAD Optimization\n================")
+            st = time.time()
+            derisked_mad_results, _ = run_backtest(test_df, tickers_file=tickers_file, initial_capital=10000, rebalance_frequency=rebalance_frequency, cluster_string=cluster_string, mode="backward", derisk_mode=True, 
+                                            derisk_threshold=derisk_threshold, derisk_duration=derisk_duration, derisk_lookahead=derisk_lookahead,
+                                            bond_years=10, epsilon=20, k=k, objective=objective, min_alloc=min_alloc, max_alloc=max_alloc, debug=True, rfr=rfr, exponential=exponential, logger=logger, write_alloc=True, fee_type="per_share", fee_pct=0.0, fee_per_share=0.0035,
+                                            percentile_threshold=percentile_threshold, lookback_days=lookback_days, lower_percentile_threshold=lower_percentile_threshold,
+                                            upper_percentile_threshold=upper_percentile_threshold, hedge=hedge,
+                                            fng_threshold_high=fng_threshold_high, fng_threshold_low=fng_threshold_low, change_in_fng_threshold=change_in_fng_threshold,
+                                            set_all_cash_range=set_all_cash_range, set_all_cash_change=set_all_cash_change, use_mad_optimization=True)
+            
+            derisked_mad_ann_return, derisked_mad_vol, derisked_mad_mdd, derisked_mad_downside_deviation, derisked_mad_metric, [derisked_mad_sr, derisked_mad_sortino, derisked_mad_calmar, derisked_mad_sorcal] = compute_metrics(derisked_mad_results, objective=objective, rfr=rfr)
+            en = time.time()
+            logger.write(f"Derisked MAD optimization performance with k={k}: Annualized Return={derisked_mad_ann_return:.2f}%, Vol={derisked_mad_vol:.4f}, MDD={derisked_mad_mdd:.4f} (Sharpe={derisked_mad_sr:.4f}, Sortino={derisked_mad_sortino:.4f}, Calmar={derisked_mad_calmar:.4f}, Sorcal={derisked_mad_sorcal:.4f}) in {en-st:.2f} seconds")
 
     # logger.write("================\nBaseline\n================")
     # baseline_results, _ = run_backtest(test_df, initial_capital=10000, rebalance_frequency=REBALANCE_FREQUENCY,
@@ -285,8 +322,11 @@ def run_complete_backtest(universe, start_date, end_date, tickers_file, rebalanc
     gold_label = "Gold Buy & Hold"
     bonds_label = "Bonds Buy & Hold"
     regret_label = "Regret Learning"
+    mad_label = "MAD Optimization"
     if test_derisk:
         derisked_label = "Derisked Portfolio"
+        if use_mad_optimization:
+            derisked_mad_label = "Derisked MAD Optimization"
     # Compare performance
     all_results = {}
     
@@ -294,8 +334,12 @@ def run_complete_backtest(universe, start_date, end_date, tickers_file, rebalanc
     all_results[gold_label] = gold_results
     all_results[bonds_label] = bonds_results
     all_results[regret_label] = regret_results
+    if use_mad_optimization and mad_results is not None:
+        all_results[mad_label] = mad_results
     if test_derisk:
         all_results[derisked_label] = derisked_results
+        if use_mad_optimization and derisked_mad_results is not None:
+            all_results[derisked_mad_label] = derisked_mad_results
 
     plot_performance(all_results, logger=logger, rebalance_dates=regret_rebalance_dates)
     plot_metrics(all_results, rfr=rfr, logger=logger)

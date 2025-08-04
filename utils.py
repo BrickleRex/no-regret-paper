@@ -105,7 +105,7 @@ def plot_performance(results_dict, logger=None, rebalance_dates=None):
     ax.set_title('Portfolio Performance Comparison', fontsize=18)
     ax.set_xlabel('Date', fontsize=18)
     ax.set_ylabel('Value (higher is better)', fontsize=18)
-    ax.legend(fontsize=12)
+    ax.legend(fontsize=16)
     ax.tick_params(axis='x', labelsize=18)
     ax.tick_params(axis='y', labelsize=18)
 
@@ -122,18 +122,21 @@ def plot_metrics(results_dict, rfr=None, logger=None):
         ann_ret, vol, mdd, metric, downside_dev, [sr, sortino, calmar, sorcal] = compute_metrics(res, rfr=rfr)
         print(f"{lbl}: Annualized Return={ann_ret:.2f}%, Volatility={vol:.4f}, Downside Deviation={downside_dev:.4f}, Max Drawdown={mdd:.4f}")
         print(f"Sharpe: {sr:.4f}, Sortino: {sortino:.4f}, Calmar: {calmar:.4f}, Sorcal: {sorcal:.4f}\n")
-        volatilities.append(vol)
-        max_drawdowns.append(mdd)
+        if lbl != "Bonds Buy & Hold":
+            volatilities.append(vol)
+            max_drawdowns.append(mdd)
+
+    lbls = [lbl for lbl in lbls if lbl != "Bonds Buy & Hold"]
 
     x = np.arange(len(lbls))
     width = 0.35
-
+    
     fig, ax1 = plt.subplots(figsize=(10,6))
     ax1.bar(x - width/2, volatilities, width=width, label='Volatility', color='blue')
     ax1.set_ylabel('Annualized Volatility (std dev, lower is better)', color='blue', fontsize=14)
     ax1.set_title('Volatility and Max Drawdown', fontsize=18)
     ax1.set_xticks(x)
-    ax1.set_xticklabels(lbls, fontsize=16)
+    ax1.set_xticklabels(lbls, fontsize=17)
     ax1.tick_params(axis='y', labelcolor='blue', labelsize=16)
 
     ax2 = ax1.twinx()
@@ -143,7 +146,7 @@ def plot_metrics(results_dict, rfr=None, logger=None):
 
     lines, labels_ax1 = ax1.get_legend_handles_labels()
     lines2, labels_ax2 = ax2.get_legend_handles_labels()
-    ax1.legend(lines + lines2, labels_ax1 + labels_ax2, loc='upper left', fontsize=15)
+    ax1.legend(lines + lines2, labels_ax1 + labels_ax2, loc='upper left', fontsize=18)
 
     logger.save_plot(fig, 'volatility_max_drawdown_comparison.png')
 

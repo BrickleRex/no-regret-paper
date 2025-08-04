@@ -5,6 +5,12 @@ import math
 import time
 from metrics import annualized_return, volatility, max_drawdown, sharpe_ratio, downside_deviation, sortino_ratio, calmar_ratio, sorcal_ratio
 import json
+try:
+    import cvxpy as cp
+    CVXPY_AVAILABLE = True
+except ImportError:
+    CVXPY_AVAILABLE = False
+    print("WARNING: cvxpy not available. MAD optimization will be disabled.")
 
 def get_divergence(previous_policy, scenario):
     #softmax over both and get kl div
@@ -280,14 +286,182 @@ def scenario_performance(df, assets_ret, asset_names, asset_indices, scenario, o
 
     return final_metric
 
+def optimize_mad_portfolio(returns_data, asset_names, cluster=None, blacklist=None, min_weight=0.0, max_weight=1.0):
+    """
+    Optimize portfolio using Mean Absolute Deviation (MAD) criterion.
+    
+    Args:
+        returns_data: numpy array of asset returns (T x N) where T is time periods, N is assets
+        asset_names: list of asset names corresponding to columns in returns_data
+        cluster: list of assets to consider (if None, consider all assets)
+        blacklist: set of assets to exclude
+        min_weight: minimum weight for each asset
+        max_weight: maximum weight for each asset
+    
+    Returns:
+        dict: optimal portfolio weights {asset_name: weight}
+    """
+    if not CVXPY_AVAILABLE:
+        raise ImportError("cvxpy is required for MAD optimization")
+    
+    # Filter assets based on cluster and blacklist
+    valid_assets = []
+    valid_indices = []
+    
+    for i, asset in enumerate(asset_names):
+        # Skip if blacklisted
+        if blacklist is not None and asset in blacklist:
+            continue
+            
+        # Skip if not in cluster (except for Cash and Bonds)
+        if cluster is not None and asset not in cluster and asset not in ['Cash', 'Bonds']:
+            continue
+            
+        valid_assets.append(asset)
+        valid_indices.append(i)
+    
+    if len(valid_assets) == 0:
+        # Fallback to cash if no valid assets
+        return {'Cash': 1.0}
+    
+    # Extract returns for valid assets
+    R = returns_data[:, valid_indices]
+    n_assets = len(valid_assets)
+    
+    # Check for missing data (-1 values)
+    if np.any(R == -1):
+        print("WARNING: Found missing data (-1) in returns, falling back to equal weight")
+        equal_weight = 1.0 / n_assets
+        return {asset: equal_weight for asset in valid_assets}
+    
+    # CVXPY optimization variables
+    x = cp.Variable(n_assets, nonneg=True)
+    
+    # Portfolio returns for each time period
+    portfolio_returns = R @ x
+    
+    # Expected return
+    expected_return = cp.sum(R @ x) / R.shape[0]
+    
+    # Mean Absolute Deviation
+    mad = cp.sum(cp.abs(portfolio_returns - expected_return)) / R.shape[0]
+    
+    # Constraints
+    constraints = [
+        cp.sum(x) == 1,  # weights sum to 1
+        x >= min_weight,  # minimum weight constraint
+        x <= max_weight   # maximum weight constraint
+    ]
+    
+    # Optimization problem
+    prob = cp.Problem(cp.Minimize(mad), constraints)
+    
+    try:
+        prob.solve(solver=cp.ECOS, verbose=False)
+        
+        if prob.status not in ["infeasible", "unbounded"]:
+            optimal_weights = x.value
+            
+            # Create result dictionary
+            result = {}
+            for i, asset in enumerate(valid_assets):
+                result[asset] = max(0.0, optimal_weights[i])  # Ensure non-negative
+            
+            # Normalize weights to sum to 1
+            total_weight = sum(result.values())
+            if total_weight > 0:
+                result = {asset: weight / total_weight for asset, weight in result.items()}
+            else:
+                # Fallback to equal weight
+                equal_weight = 1.0 / len(valid_assets)
+                result = {asset: equal_weight for asset in valid_assets}
+            
+            # Add zero weights for assets not in the optimization
+            for asset in asset_names:
+                if asset not in result:
+                    result[asset] = 0.0
+            
+            print(f"MAD optimization successful. MAD value: {mad.value:.6f}")
+            return result
+        else:
+            print(f"MAD optimization failed with status: {prob.status}")
+    except Exception as e:
+        print(f"MAD optimization error: {str(e)}")
+    
+    # Fallback to equal weight among valid assets
+    print("Falling back to equal weight portfolio")
+    equal_weight = 1.0 / len(valid_assets)
+    result = {asset: equal_weight for asset in valid_assets}
+    
+    # Add zero weights for assets not in the optimization
+    for asset in asset_names:
+        if asset not in result:
+            result[asset] = 0.0
+            
+    return result
+
 def pick_best_scenario(df, current_allocation, epsilon, start_date, k, objective, ret_full, mode="backward", rebalance_dates=None, rebalance_frequency=None, 
                        min_alloc=25, max_alloc=65, rfr=None, exponential=False, regularize=False, reg_factor=0.5, cluster=None, blacklist=None,
-                       percentile_threshold=None, lookback_days=None, lower_percentile_threshold=None, upper_percentile_threshold=None):
+                       percentile_threshold=None, lookback_days=None, lower_percentile_threshold=None, upper_percentile_threshold=None, use_mad_optimization=False):
     print(f"Picking best scenario for start_date: {start_date}")
     if cluster is not None:
         print(f"Cluster length: {len(cluster)}")
     if blacklist is not None:
         print(f"Blacklisted assets: {blacklist}")
+    
+    # Early return for MAD optimization
+    if use_mad_optimization:
+        print("Using MAD optimization for portfolio allocation")
+        
+        if not CVXPY_AVAILABLE:
+            print("ERROR: cvxpy not available, falling back to current allocation")
+            return current_allocation
+            
+        # Set up the lookback window for MAD optimization
+        if start_date not in df.index:
+            later_dates = df.index[df.index > start_date]
+            earlier_dates = df.index[df.index < start_date]
+            if len(later_dates) > 0 and len(earlier_dates) > 0:
+                start_date = later_dates.min()
+            else:
+                return current_allocation
+        
+        # Get the lookback window (past k days)
+        pos = df.index.get_loc(start_date)
+        end_idx = pos - 1
+        start_idx = max(0, end_idx - k + 1)
+        
+        if start_idx < 0 or start_idx > end_idx:
+            print(f"WARNING: Invalid window for MAD optimization - start_idx ({start_idx}) > end_idx ({end_idx})")
+            return current_allocation
+        
+        # Extract returns data for the lookback period
+        ret_window = ret_full.iloc[start_idx:end_idx+1].drop(columns=["CPI"], axis=1, errors='ignore')
+        ret_window["Cash"] = [0.0] * ret_window.shape[0]  # Cash has 0 return
+        
+        asset_names = list(ret_window.columns)
+        returns_data = ret_window.to_numpy()
+        
+        print(f"MAD optimization window: {ret_window.shape[0]} days, {len(asset_names)} assets")
+        
+        # Apply min/max allocation constraints
+        min_weight = min_alloc / 100.0  # Convert percentage to decimal
+        max_weight = max_alloc / 100.0  # Convert percentage to decimal
+        
+        try:
+            mad_allocation = optimize_mad_portfolio(
+                returns_data, 
+                asset_names, 
+                cluster=cluster, 
+                blacklist=blacklist
+            )
+            
+            print(f"MAD optimization result: {[(k, v) for k, v in mad_allocation.items() if v > 0.001]}")
+            return mad_allocation
+            
+        except Exception as e:
+            print(f"MAD optimization failed: {str(e)}")
+            return current_allocation
     
     if regularize and current_allocation is None:
         raise ValueError("Current allocation is required for regularization")
